@@ -1,0 +1,38 @@
+
+.categories {
+    color: #999;
+}
+
+.categories_container {
+    max-width: 1030px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.categories_item {
+    display: inline-block;
+    max-width: 262px;
+    padding: 1px;
+    margin-bottom: 60px;
+}
+
+.categories_item:hover {
+    background-color: #42a5d8;;;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.categ_img {
+    padding-left: 5px;
+    float: left;
+}
+
+.categ_text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 35px;
+}

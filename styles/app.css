@@ -1,0 +1,29 @@
+@import './header.css';
+@import './intro.css';
+@import './categories.css';
+@import './news.css';
+@import './partners.css';
+@import './posts.css';
+@import './contact.css';
+@import './footer.css';
+@import './media_queries.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover, a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.app {
+    font-family: 'Roboto', sans-serif;
+}
+

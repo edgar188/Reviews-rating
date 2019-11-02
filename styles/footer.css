@@ -1,0 +1,158 @@
+
+/* --------- Footer top-bottom ---------- */
+
+.footer_top_content, .footer_bottom_content {
+    max-width: 1030px;
+    margin:  0 auto;
+    color: #fff;
+}
+
+.footer_bottom_content_section {
+    width: 30%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+/* -------------------- Footer top --------------------- */
+.footer_top {
+    background-color: #1f1f1f;
+    height: 270px;
+}
+
+.footer_top::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.footer_top_content {
+    margin-top: 30px;
+}
+
+.footer_top_content_section {
+    width: 30%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.footer_top_content_section:nth-of-type(n) {
+    margin-right: 40px;
+}
+
+.footer_top_content_section:last-of-type {
+    margin-right: 0;
+}
+
+.footer_top_content_section .section_head {
+    font-size: 22px;
+    color: #febb18;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.footer_top_content_section .section_text {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+}
+
+.section_container img {
+    float: left;
+    margin-right: 15px;
+}
+
+.tweet {
+    max-height: 70px;
+    overflow: hidden;
+}
+
+.tweet img {
+    padding-bottom: 54px;
+}
+
+.user_email {
+    margin-right: 5px;
+    color: #58b4e4;
+}
+
+.feed_back_field, .feed_back_submit {
+    height: 40px;
+    border: none;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.feed_back_field {
+    border-radius: 25px 0px 0px 25px;
+    width: 220px;
+    font-size: 16px;
+    margin-right: -4px;
+    color: #868686;
+    text-indent: 20px;
+    border-right: none;
+}
+
+.feed_back_submit {
+    border-radius: 0px 25px 25px 0px;
+    width: 67px;
+    background-color: #ffc12c;
+    font-size: 16px;
+    color: #fff;
+    border-left: none;
+    text-transform: uppercase;
+}
+
+/* ------------------- Footer bottom -------------------- */
+
+.footer_bottom {
+    background-color: #181818;
+    height: 102px;
+}
+
+.footer_bottom::before {
+    clear: both;
+    content: '';
+    display: table;
+ }
+
+.footer_bottom_content {
+    margin-top: 36px;
+}
+
+.footer_bottom_content_section {
+    text-align: right;
+}
+
+.first_text_parag {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.second_text_parag {
+    font-size: 28.98px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.business_word {
+    font-weight: 500;
+}
+
+.social_icon {
+    margin-right: 25px;
+}
+
+.social_icon:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.footer_bottom_content_section:first-of-type {
+    text-align: left;
+}
+
+.footer_bottom_content_section:last-of-type {
+    float: right;
+}

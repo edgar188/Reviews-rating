@@ -1,0 +1,103 @@
+.intro {
+    background-color: #42a5d8;
+    color: #fff;
+}
+
+.intro_container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-top: 84px;
+}
+
+.hero {
+    margin: 86px auto 0;
+}
+
+.top_text {
+    font-size: 80px;
+    line-height: 70px;
+    color: #febb18;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.bottom_text {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 300;
+}
+
+.hero_texts {
+    float: left;
+    margin-left: 14px;
+}
+
+.img_container {
+    display: inline-block;
+    width: 55%;
+    margin-top: -40px;
+    margin-left: -28px;
+}
+
+/* --------------------------------- Search ---------------------------------- */
+
+.search_container {
+    max-width: max-content;
+    margin: 100px auto 0;
+    padding-bottom: 62px;
+}
+
+.search_field, .search_button {
+    height: 44px;
+    border: 6px solid #56acd9;
+}
+
+.search_field {
+    border-radius: 25px 0px 0px 25px;
+    width: 375px;
+    font-size: 16px;
+    margin-right: -4px;
+    color: #868686;
+    text-indent: 20px;
+    border-right: none;
+}
+
+.search_button {
+    border-radius: 0px 25px 25px 0px;
+    width: 94px;
+    background-color: #ffc12c;
+    font-size: 16px;
+    color: #fff;
+    border-left: none;
+}
+
+/* ---------------------------------- Slider_arrows ----------------------------------- */
+
+.slider_arrows {
+   position: relative;
+}
+
+.elipse_prev,
+.arrow_prev, 
+.elipse_next, 
+.arrow_next {
+    position: absolute;
+}  
+
+.slider_prev:hover, .slider_next:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.slider_prev, .slider_next {
+    position: absolute;
+    top: 245px;
+}
+
+.slider_prev {
+    left: 50px;
+}
+
+.slider_next {
+    right: 115px;
+}

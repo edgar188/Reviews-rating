@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./styles/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reviews-rating</title>
+</head>
+
+<body>
+    <main class="app">
+        <!--------------------------- Header ------------------------------>
+        <header>
+            <div class="header_container">
+                <div class="header_logo_container">
+                    <h2 class="header_logo">
+                        <span>business</span>reviews
+                    </h2>
+                </div>
+                <nav class="header_nav">
+                    <div class="toggle" onclick="">
+                        <i class="fa fa-bars" aria-hidden="true" onclick="responsiveNavbar()"></i>
+                    </div>
+                    <ul id="nav_list" class="nav_list">
+                        <li><a href="#" class="link active">Home</a></li>
+                        <li><a href="#" class="link">Reviews</a></li>
+                        <li><a href="#" class="link">Compare</a></li>
+                        <li><a href="#" class="link">About</a></li>
+                        <li><a href="#" class="link">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--------------------------- Intro ------------------------------>
+        <section class="intro">
+            <div class="slider_arrows">
+                <div class="slider_prev">
+                    <img src="./images/intro/prev.png" alt="Previous" class="elipse_prev" />
+                </div>
+                <div class="slider_next">
+                    <img src="./images/intro/next.png" alt="Next" class="elipse_next" />
+                </div>
+            </div>
+            <div class="intro_container">
+                <div class="hero">
+                    <div class="hero_texts">
+                        <p class="top_text">
+                            Reviews <br />
+                            Ratings <br />
+                            Comparisons
+                        </p>
+                        <p class="bottom_text">
+                            Unbiased Reviews That Save You <br />
+                            Time and Money
+                        </p>
+                    </div>
+                    <div class="img_container">
+                        <img src="./images/intro/Vector.png" alt="Vector" />
+                    </div>
+                    <div class="search_container">
+                        <form>
+                            <input class="search_field" placeholder="Search for a company" />
+                            <button class="search_button">SEARCH</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------- Categories ------------------------------>
+        <section class="categories">
+            <div class="categories_container">
+                <div class="categories_item">
+                    <img src="./images/categories/bank.png" alt="bank" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/mobile.png" alt="mobile" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/pos.png" alt="pos" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/restaurant.png" alt="restaurant" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/online-store.png" alt="online-store" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/calculating.png" alt="calculating" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/business.png" alt="business" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/credit-card.png" alt="credit-card" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/money.png" alt="money" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/editor.png" alt="editor" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/check-mark.png" alt="check-mark" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+                <div class="categories_item">
+                    <img src="./images/categories/invoice.png" alt="invoice" class="categ_img" />
+                    <p class="categ_text"> Best Merchant <br />
+                        Account Reviews
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--------------------------- News ----------------------------------->
+        <section class="news">
+            <div class="news_container">
+                <div class="news_head">
+                    <h1>Latest news</h1>
+                </div>
+                <div class="news_list">
+                    <div class="news_item">
+                        <img class="news_img" src="./images/news/mountain.jpg" alt="mountain" />
+                        <p class="news_title">
+                            <b>The Complete Guide to Credit Card Processing Rates & Fees</b>
+                        </p>
+                        <p class="news_description">
+                            Credit card processing fees are extensive, complicated, and somewhat overwhelming.
+                            Nevertheless, you have to pay them... if you want to process credit cards through your
+                            business. Rather
+                        </p>
+                        <a href="#">Load More</a>
+                    </div>
+                    <div class="news_item">
+                        <img class="news_img" src="./images/news/soldier.jpg" alt="soldier" />
+                        <p class="news_title">
+                            <b>The 5 Best Small Business Credit Card Processin...</b>
+                        </p>
+                        <p class="news_description">
+                            Unless your small business consists of running a lemonade stand on the corner of your
+                            street, sooner or later you're going...
+                        </p>
+                        <a href="#">Load More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------- Partners -------------------------------->
+        <section class="partners">
+            <div class="partners_container">
+                <div class="partners_head">
+                    <h1>Our partners</h1>
+                </div>
+                <div class="partners_slider">
+                    <img src="./images/partners/Arrow Prev.png" alt="Previous" class="partners_slider_img_prev" />
+                    <div class="partners_logo_container">
+                        <img src="./images/partners/logos/ENT-logo.png" alt="ENT" />
+                    </div>
+                    <div class="partners_logo_container">
+                        <img src="./images/partners/logos/The_New_York_Times_logo.png" alt="The_New_York_Times" />
+                    </div>
+                    <div class="partners_logo_container">
+                        <img src="./images/partners/logos/comparecards-logo-1.1-w.png" alt="Comparecards" />
+                    </div>
+                    <div class="partners_logo_container">
+                        <img src="./images/partners/logos/MSN-logo-2014-blue.png" alt="MSN" />
+                    </div>
+                    <img src="./images/partners/Arrow Next.png" alt="Next" class="partners_slider_img_next" />
+                </div>
+            </div>
+        </section>
+        <!---------------------------- Posts --------------------------------->
+        <section class="posts">
+            <div class="posts_container">
+                <div class="posts_head">
+                    <h1>Blog posts</h1>
+                </div>
+                <div class="posts_list">
+                    <div class="posts_item">
+                        <img src="./images/posts/posts-img/img-1.jpg" alt="img-1" class="posts_item_img" />
+                        <p class="posts_date">
+                            <img src="./images/posts/date.png" alt="date" class="posts_date_img" />
+                            21 January 2016
+                        </p>
+                        <p class="posts_title">
+                            <b>The Complete Guide to Credit Card Processing Rates & Fees</b>
+                        </p>
+                        <p class="posts_description">
+                            Credit card processing fees are extensive, complicated, and somewhat overwhelming.
+                            Nevertheless, you have to pay them if you want to process credit cards through your
+                            business. Rather than paying these charges blindly, you might as well make an...
+                        </p>
+                    </div>
+                    <div class="posts_item">
+                        <img src="./images/posts/posts-img/img-2.jpg" alt="img-2" class="posts_item_img" />
+                        <p class="posts_date">
+                            <img src="./images/posts/date.png" alt="date" class="posts_date_img" />
+                            31 July 2016
+                        </p>
+                        <p class="posts_title">
+                            <b>The 5 Best Small Business Credit Card Processing Companies</b>
+                        </p>
+                        <p class="posts_description">
+                            Unless your small business consists of running a lemonade stand on the corner of your
+                            street, sooner or later you're going to need to accept credit and debit cards as payment in
+                            order to compete in today's marketplace. Customers are increasingly...
+                        </p>
+                    </div>
+                    <div class="posts_item">
+                        <img src="./images/posts/posts-img/img-3.jpg" alt="img-3" class="posts_item_img" />
+                        <p class="posts_date">
+                            <img src="./images/posts/date.png" alt="date" class="posts_date_img" />
+                            5 November 2014
+                        </p>
+                        <p class="posts_title">
+                            <b>Top 7 Square Alternatives</b>
+                        </p>
+                        <p class="posts_description">
+                            Onless your small business consists of running a lemonade stand on the corner of your
+                            street, sooner or later you're going to need to accept credit and debit cards as payment in
+                            order to compete in today's marketplace. Customers are increasingly...
+                        </p>
+                    </div>
+                </div>
+                <div class="posts_btn_container">
+                    <button class="posts_btn">Load more</button>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------- Contact --------------------------------------->
+        <section class="contact">
+            <div class="contact_container">
+                <form class="contact_form">
+                    <div><input placeholder="Name" class="input_field" /></div>
+                    <div><input type="email" placeholder="Email" class="input_field" /></div>
+                    <div><input placeholder="Subject" class="input_field" /></div>
+                    <div><textarea placeholder="Message" class="textarea_field"></textarea> </div>
+                    <button class="contact_btn">Load More</button>
+                </form>
+            </div>
+        </section>
+        <!-- ----------------------------- Footer ---------------------------------------->
+        <footer>
+            <!------------------ Footer top ------------------>
+            <div class="footer_top">
+                <div class="footer_top_content">
+                    <div class="footer_top_content_section">
+                        <div class="section_container">
+                            <h2 class="section_head">About us</h2>
+                            <div>
+                                <img src="./images/footer/top-images/bank.png" alt="" />
+                                <p class="section_text">
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea
+                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum
+                                    dolore eu fugiat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_top_content_section">
+                        <div class="section_container">
+                            <h2 class="section_head">Latest Tweets</h2>
+                            <div class="tweet">
+                                <img src="./images/footer/top-images/twitter.png" alt="" />
+                                <p class="section_text">
+                                    <a href="#" class="user_email">@Loremipsum</a> dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor ut dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="tweet">
+                                <img src="./images/footer/top-images/twitter.png" alt="" />
+                                <p class="section_text">
+                                    <a href="#" class="user_email">@Loremipsum</a> quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea com-
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_top_content_section">
+                        <div class="section_container">
+                            <h2 class="section_head">Newsletter SignUp</h2>
+                            <div>
+                                <p class="section_text">
+                                    Sign Up for our newsletter and stay informed about or new products and speciall
+                                    offers!
+                                </p>
+                                <form>
+                                    <input type="email" placeholder="Email address" class="feed_back_field" />
+                                    <button class="feed_back_submit">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------ Footer bottom ------------------>
+            <div class="footer_bottom">
+                <div class="footer_bottom_content">
+                    <div class="footer_bottom_content_section">
+                        <p class="first_text_parag">Support / Terms / Privacy</p>
+                    </div>
+                    <div class="footer_bottom_content_section">
+                        <p class="second_text_parag">
+                            <span class="business_word">business</span>reviews
+                        </p>
+                    </div>
+                    <div class="footer_bottom_content_section">
+                        <img src="./images/footer/bottom-images/soc-4.png" alt="soc-4" class="social_icon" />
+                        <img src="./images/footer/bottom-images/soc-3.png" alt="soc-3" class="social_icon" />
+                        <img src="./images/footer/bottom-images/soc-2.png" alt="soc-2" class="social_icon" />
+                        <img src="./images/footer/bottom-images/soc-1.png" alt="soc-1" class="social_icon" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
