@@ -1,6 +1,4 @@
-
 /* --------- Footer top-bottom ---------- */
-
 .footer_top_content, .footer_bottom_content {
     max-width: 1030px;
     margin:  0 auto;
@@ -35,7 +33,7 @@
     vertical-align: top;
 }
 
-.footer_top_content_section:nth-of-type(n) {
+.footer_top_content_section {
     margin-right: 40px;
 }
 
