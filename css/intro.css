@@ -80,7 +80,6 @@
 }
 
 /* ---------------------------------- Slider_arrows ----------------------------------- */
-
 .slider_arrows {
    position: relative;
 }
@@ -102,4 +101,5 @@
 .slider_next {
     right: 115px;
 }
+
 
