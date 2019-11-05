@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="./css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/0442ee0d1f/UntitledProject/style.css">
+
     <title>Reviews-rating</title>
 </head>
 
@@ -39,36 +41,35 @@
         <section class="intro">
             <div class="slider_arrows">
                 <div class="slider_prev">
-                    <img src="./images/intro/prev.png" alt="Previous" class="elipse_prev" />
+                    <img src="./images/intro/prev.png" alt="Previous" id="prev" class="elipse_prev"
+                        onclick="introSlider(this)" />
                 </div>
                 <div class="slider_next">
-                    <img src="./images/intro/next.png" alt="Next" class="elipse_next" />
+                    <img src="./images/intro/next.png" alt="Next" id="next" class="elipse_next"
+                        onclick="introSlider(this)" />
                 </div>
             </div>
-            
+
             <div class="intro_container">
                 <div class="hero">
                     <div class="hero_texts">
-                        <p class="top_text">
-                            Reviews <br />
-                            Ratings <br />
-                            Comparisons
+                        <p class="top_text" id="top_text">
+                            Reviews Ratings Comparisons
                         </p>
-                        <p class="bottom_text">
-                            Unbiased Reviews That Save You <br />
-                            Time and Money
+                        <p class="bottom_text" id="bottom_text">
+                            Unbiased Reviews That Save You Time and Money
                         </p>
                     </div>
                     <div class="img_container">
-                        <img src="./images/intro/Vector.png" alt="Vector" />
-                    </div>
-                    <div class="search_container">
-                        <form>
-                            <input class="search_field" placeholder="Search for a company" />
-                            <button class="search_button">SEARCH</button>
-                        </form>
+                        <img id="hero_img" src="./images/intro/vector.png" alt="vector" />
                     </div>
                 </div>
+            </div>
+            <div class="search_container">
+                <form>
+                    <input class="search_field" placeholder="Search for a company" />
+                    <button class="search_button">SEARCH</button>
+                </form>
             </div>
         </section>
         <!-------------------------- Categories ------------------------------>
@@ -343,10 +344,18 @@
                         </p>
                     </div>
                     <div class="footer_bottom_content_section">
-                        <img src="./images/footer/bottom-images/soc-4.png" alt="soc-4" class="social_icon" />
-                        <img src="./images/footer/bottom-images/soc-3.png" alt="soc-3" class="social_icon" />
-                        <img src="./images/footer/bottom-images/soc-2.png" alt="soc-2" class="social_icon" />
-                        <img src="./images/footer/bottom-images/soc-1.png" alt="soc-1" class="social_icon" />
+                        <a href="#" class="font_icon_link">
+                            <span class="icon-facebook"></span>
+                        </a>
+                        <a href="#" class="font_icon_link">
+                            <span class="icon-twitter"></span>
+                        </a>
+                        <a href="#" class="font_icon_link">
+                            <span class="icon-google"></span>
+                        </a>
+                        <a href="#" class="font_icon_link">
+                            <span class="icon-rss"></span>
+                        </a>            
                     </div>
                 </div>
             </div>

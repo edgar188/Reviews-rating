@@ -64,7 +64,7 @@
     margin-bottom: 7px; 
 }
 
-.partners_slider_img_prev:hover, #partners_slider_img_next:hover {
+.partners_slider_img_prev:hover, .partners_slider_img_next:hover {
     opacity: 0.5;
     cursor: pointer;
 }

@@ -1,0 +1,19 @@
+.root .one, .root .two, .root .three {
+  text-align: center;
+}
+.root .one:hover, .root .two:hover, .root .three:hover {
+  color: red;
+  transition: all 1s;
+  transition-duration: 5s;
+}
+.root .one {
+  color: blue;
+}
+.root .two {
+  color: green;
+}
+.root .three {
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

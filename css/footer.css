@@ -154,3 +154,20 @@
 .footer_bottom_content_section:last-of-type {
     float: right;
 }
+
+.font_icon_link {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.font_icon_link:hover {
+    color: #2e9bd4;
+    opacity: 1;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-google,
+.icon-rss {
+    font-family: "initial";
+}
