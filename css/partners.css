@@ -99,6 +99,12 @@
     float: left;
 }
 
+.partners_logo_container a {
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    width: 100%;
+}
+
 .new_york {
     background-image: url('../images/partners/logos/The_New_York_Times.png');
 }
@@ -132,8 +138,13 @@
 .part_link {
     background-repeat: no-repeat;
     margin-left: 30px;
+    width: 100%;
 }
 
 .part_link:hover {
     opacity: 1;
+}
+
+.partners_logo {
+    visibility: hidden;
 }

@@ -42,11 +42,13 @@
         <section class="intro">
             <div class="slider_arrows">
                 <div class="slider_prev">
-                    <img src="./images/intro/prev.png" alt="Previous" id="prev" class="elipse_prev"
+                    <img src="./images/intro/prev.png" 
+                        alt="Previous" id="prev" class="elipse_prev"
                         onclick="introSlider(this)" />
                 </div>
                 <div class="slider_next">
-                    <img src="./images/intro/next.png" alt="Next" id="next" class="elipse_next"
+                    <img src="./images/intro/next.png" 
+                        alt="Next" id="next" class="elipse_next"
                         onclick="introSlider(this)" />
                 </div>
             </div>
@@ -191,36 +193,29 @@
                 </div>
                 <div class="partners_slider">
                     <img src="./images/partners/Arrow Prev.png" alt="Previous" class="partners_slider_img_prev" />
-                    <img src="./images/partners/Arrow Next.png" alt="Next" class="partners_slider_img_next" />                    
-                    <div id="owl-demo" class="owl-carousel owl-theme">
-                        <a href="#" class="partners_logo_container ent part_link">
-                            <img src="./images/partners/logos/ENT.png" style="visibility: hidden;"/>
-                        </a>
-                        <a href="#" class="partners_logo_container new_york part_link">
-                            <img src="./images/partners/logos/The_New_York_Times.png" style="visibility: hidden;"/>
-                        </a>
-                        <a href="#" class="partners_logo_container compar part_link">
-                            <img src="./images/partners/logos/comparecards.png" style="visibility: hidden;"/>
-                        </a>
-                        <a href="#" class="partners_logo_container msn part_link">
-                            <img src="./images/partners/logos/MSN.png" style="visibility: hidden;"/>
-                        </a>
-                        <!-- <div class="partners_logo_container asd">
-                            <img src="./images/partners/logos/ENT-logo.png" alt="ENT" />
-                        </div>
-                        <div class="partners_logo_container">
-                            <img src="./images/partners/logos/The_New_York_Times_logo.png" alt="The_New_York_Times" />
-                        </div>
-                        <div class="partners_logo_container">
-                            <img src="./images/partners/logos/comparecards-logo-1.1-w.png" alt="Comparecards" />
-                        </div>
-                        <div class="partners_logo_container">
-                            <img src="./images/partners/logos/MSN-logo-2014-blue.png" alt="MSN" />
-                        </div>
-                        <div class="partners_logo_container">
-                            <img src="./images/partners/logos/ENT-logo.png" alt="ENT" />
-                        </div> -->
-                    </div>
+                    <img src="./images/partners/Arrow Next.png" alt="Next" class="partners_slider_img_next" />
+                    <ul id="owl-demo" class="owl-carousel owl-them" style="list-style-type: none;">
+                        <li class="partners_logo_container ent part_link">
+                            <a href="#">
+                                <img class="partners_logo" src="./images/partners/logos/ENT.png" />
+                            </a>
+                        </li>
+                        <li class="partners_logo_container new_york part_link">
+                            <a href="#">
+                                <img class="partners_logo" src="./images/partners/logos/ENT.png" />
+                            </a>
+                        </li>
+                        <li class="partners_logo_container compar part_link">
+                            <a href="#">
+                                <img class="partners_logo" src="./images/partners/logos/ENT.png" />
+                            </a>
+                        </li>
+                        <li class="partners_logo_container msn part_link">
+                            <a href="#">
+                                <img class="partners_logo" src="./images/partners/logos/MSN.png" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -385,27 +380,27 @@
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
     <script>
         $('.owl-carousel').owlCarousel({
-            loop:false,
-            margin:10,
-            nav:true,
+            loop: false,
+            margin: 10,
+            nav: true,
             dots: true,
-            responsive:{
+            responsiveClass: true,
+            responsive: {
                 0: {
-                    items:1,
+                    items: 1,
                     dots: true,
-                    nav: false
                 },
                 768: {
-                    items:3,
-                    dots: true
+                    items: 2,
+                    dots: true,
                 },
                 992: {
-                    items:3,
-                    dots: true
+                    items: 3,
+                    dots: true,
+                    loop: false
                 },
                 1200: {
-                    items:4,
-                    nav: true
+                    items: 4
                 }
             }
         })
