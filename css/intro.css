@@ -77,13 +77,6 @@
    position: relative;
 }
 
-.elipse_prev,
-.arrow_prev, 
-.elipse_next, 
-.arrow_next {
-    position: absolute;
-}  
-
 .slider_prev:hover, .slider_next:hover {
     cursor: pointer;
     opacity: 0.5;

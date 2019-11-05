@@ -59,7 +59,7 @@
     margin-left: 0;
 }
 
-.partners_slider_img_prev, #partners_slider_img_next {
+.partners_slider_img_prev, .partners_slider_img_next {
     float: left;
     margin-bottom: 7px; 
 }

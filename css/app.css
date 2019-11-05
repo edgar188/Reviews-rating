@@ -23,6 +23,10 @@ button:hover, a:hover {
     opacity: 0.5;
 }
 
+input, textarea, button {
+    outline: none;
+}
+
 .app {
     font-family: 'Roboto', sans-serif;
 }
