@@ -59,12 +59,25 @@
     margin-left: 0;
 }
 
-.partners_slider_img_prev, .partners_slider_img_next {
-    float: left;
-    margin-bottom: 7px; 
+.partners_slider_img_prev,
+.partners_slider_img_next {
+    margin-bottom: 7px;
+    position: relative;
+    z-index: 10;
 }
 
-.partners_slider_img_prev:hover, .partners_slider_img_next:hover {
+.partners_slider_img_prev {
+    float: left;
+}
+
+.partners_slider_img_next {
+    margin-left: 50px;
+    float: right;
+}
+
+
+.partners_slider_img_prev:hover, 
+.partners_slider_img_next:hover {
     opacity: 0.5;
     cursor: pointer;
 }
@@ -73,6 +86,54 @@
     margin-right: 50px;
 }
 
-.partners_slider_img_next {
-    margin-left: 50px;
+.owl-carousel {
+    margin-top: 60px;
+}
+
+.partners_logo_container ul {
+    list-style-type: none;
+}
+
+.partners_logo_container li {
+    display: block;
+    float: left;
+}
+
+.new_york {
+    background-image: url('../images/partners/logos/The_New_York_Times.png');
+}
+
+.new_york:hover {
+    background-image: url('../images/partners/logos/The_New_York_Times-effect.png');
+}
+
+.compar {
+    background-image: url('../images/partners/logos/comparecards.png');
+}
+
+.compar:hover {
+    background-image: url('../images/partners/logos/comparecards-effect.png');
+}
+.msn {
+    background-image: url('../images/partners/logos/MSN.png');
+}
+
+.msn:hover {
+    background-image: url('../images/partners/logos/MSN-effect.png');
+}
+.ent {
+    background-image: url('../images/partners/logos/ENT.png');
+}
+
+.ent:hover {
+    background-image: url('../images/partners/logos/ENT-effect.png');
+}
+
+.part_link {
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.part_link:hover {
+    opacity: 1;
 }
