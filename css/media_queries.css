@@ -189,34 +189,28 @@
         margin: 60px auto 0;
     }
 
-    .posts_head h1 {
+    .posts_head h2 {
         font-size: 28px;
     }
 
     .posts_list {
-        max-width: 78%;
         margin: 60px auto 0;
         margin-top: 60px;
     }
 
     .posts_item {
-        width: 300px;
-        height: 360px;
+        width: 48%;   
+    }
+
+    .posts_title, .posts_description, .posts_date {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10%;
     }
 
     .posts_date {
         margin-top: 15px;
-    }
-
-    .posts_title, .posts_description, .posts_date {
-        font-size: 10px;
-        line-height: 14px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-
-    .posts_date {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .posts_item:nth-of-type(3n+2) {
@@ -512,13 +506,15 @@
         line-height: 18px;
     }
 
-    .posts_list {
-        max-width: 90%;
+    .posts_item {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 40px;
     }
 
-    .posts_item {
-        width: 250px;
-        border: 3px solid #ededed;
+    .posts_item:nth-of-type(3n+2) {
+        margin-left: 10%;
+        margin-bottom: 40px;
     }
 
     .posts_date {
@@ -527,7 +523,7 @@
 
     .posts_title, .posts_description, .posts_date {
         margin-top: 10px;
-        margin-left: 10px;
+        max-width: 80%;
     }
 
     .posts_btn_container {
@@ -777,7 +773,7 @@
     }
 
     .news_list {
-        max-width: 60%;
+        max-width: 80%;
         margin: 30px auto 20px;
     }
 
@@ -852,33 +848,33 @@
     }
 
     .posts_list {
-        max-width: 60%;
+        max-width: 80%;
         margin: 60px auto 0px;
         margin-top: 60px;
     }
 
-    .posts_item {
-        width: 200px;
-        height: max-content;
-    }
-
     .posts_date {
+        max-height: 14px;
         margin-top: 15px;
     }
 
     .posts_title, .posts_description, .posts_date {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 12px;
+        line-height: 16px;
         margin-top: 10px;
-        margin-left: 10px;
     }
 
     .posts_date {
         font-size: 12px;
     }
 
-    .posts_item:nth-of-type(3n+2) {
-        margin: 0;
+    .posts_title {
+        max-height: 34px;
+    }
+
+    .posts_description {
+        max-height: 96px;
+        overflow: hidden;
     }
 
     .posts_btn_container {
@@ -1187,27 +1183,6 @@
 
     /* ------------------------- Posts ------------------------ */
 
-    .posts_container {
-        max-width: 80%;
-        margin: 60px auto 0;
-    }
-
-    .posts_head h1 {
-        font-size: 20px;
-        line-height: 16px;
-    }
-
-    .posts_list {
-        max-width: 60%;
-        margin: 60px auto 0;
-        margin-top: 60px;
-    }
-
-    .posts_item {
-        width: 170px;
-        height: max-content;
-    }
-
     .posts_date {
         margin-top: 15px;
     }
@@ -1217,16 +1192,17 @@
         line-height: 14px;
         margin-top: 10px;
         margin-left: 10px;
+        word-break: break-word;
     }
 
     .posts_date {
         font-size: 12px;
     }
 
-    .posts_item:nth-of-type(3n+2) {
-        margin: 0;
+    .posts_title {
+        max-height: 30px;
     }
-
+    
     .posts_btn_container {
         margin-top: 10px;
     }
