@@ -94,6 +94,10 @@
     word-break: break-all;
 }
 
+.posts_title_link {
+    color: #555;
+}
+
 .posts_btn_container {
     margin-top: 100px;
     text-align: center;
@@ -105,8 +109,9 @@
     font-size: 16px;
     line-height: 22px;
     text-transform: uppercase;
-    height: 62px;
-    width: 210px;
+    padding: 15px 0;
+    max-width: 210px;
+    width: 30%;
     border: 6px solid #ededed;
     border-radius: 30px;
 }
