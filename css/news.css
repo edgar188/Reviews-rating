@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-.news_head h1 {
+.news_head h2 {
     color: #359cd1;
     font-size: 36px;
     line-height: 22px;
@@ -37,10 +37,10 @@
 }
 
 .news_item {
-    width: 505px;
+    width: 48%;
     float: left;
-    min-height: 550px;
-    border: 6px solid #ededed;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-top: none;
 }
 
@@ -54,7 +54,9 @@
 
 .news_title {
     max-width: 430px;
-    margin: 0 auto;
+    max-height: 20px;
+    overflow: hidden;
+    margin: 30px auto 0;
     margin-top: 30px;
     font-size: 16px;
     line-height: 22px;
@@ -63,10 +65,8 @@
 
 .news_description {
     max-width: 430px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-height: 56px;
+    margin: 30px auto;
+    max-height: 40px;
     overflow: hidden;
  }
 

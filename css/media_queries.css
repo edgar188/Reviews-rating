@@ -72,17 +72,15 @@
     }
 
     .search_field, .search_button {
-        height: 38px;
+        padding: 5px 0;
         margin-right: -4px;
     }
         
     .search_field {
-        width: 345px;
         font-size: 14px;
     }
     
     .search_button {
-        width: 80px;
         font-size: 14px;
     }
 
@@ -323,9 +321,9 @@
         font-size: 16px;
     }
     
-    .second_text_parag {
+    /* .second_text_parag {
         font-size: 22px;
-    }
+    } */
 }
 
  @media (min-width: 770px) {
@@ -400,18 +398,16 @@
     }
 
     .search_field, .search_button {
-        height: 32px;
+        padding: 3px 0;
         border-width: 3px;
     }
         
     .search_field {
-        width: 300px;
         font-size: 12px;
         text-indent: 16px;
     }
     
     .search_button {
-        width: 70px;
         font-size: 12px;
     }
 
@@ -673,10 +669,10 @@
     line-height: 18px;
 }
 
-.second_text_parag {
+/* .second_text_parag {
     font-size: 16px;
     line-height: 14px;
-}
+} */
 
 .social_icon {
     margin-top: 10px;
@@ -746,11 +742,7 @@
     }
     
     .search_container {
-        margin: 40px auto 0px 90px;
-    }
-
-    .search_field, .search_button {
-        height: 28px;
+        margin: 40px auto 0;
     }
         
     .search_field {
@@ -792,7 +784,7 @@
         margin-top: 40px;
     }
 
-    .news_head h1 {
+    .news_head h2 {
         font-size: 20px;
         line-height: 16px;
     }
@@ -840,7 +832,7 @@
         margin-top: 40px;
     }
 
-    .partners_head h1 {
+    .partners_head h2 {
         font-size: 20px;
         line-height: 16px;
     }
@@ -873,7 +865,7 @@
         margin: 60px auto 0px;
     }
 
-    .posts_head h1 {
+    .posts_head h2 {
         font-size: 20px;
         line-height: 16px;
     }
@@ -886,7 +878,6 @@
 
     .posts_item {
         width: 200px;
-        border: 1px solid #ededed;
         height: max-content;
     }
 
@@ -1056,10 +1047,10 @@
     line-height: 18px;
 }
 
-.second_text_parag {
+/* .second_text_parag {
     font-size: 14px;
     line-height: 14px;
-}
+} */
 
 .social_icon {
     margin-top: 10px;
@@ -1124,20 +1115,18 @@
     }
 
     .search_container {
-        margin: 30px auto 0px 70px;
+        margin: 30px auto 0;
     }
 
     .search_field, .search_button {
-        height: 24px;
+        padding: 3px;
     }
         
     .search_field {
-        width: 120px;
         font-size: 8px;
     }
     
     .search_button {
-        width: 45px;
         font-size: 8px;
     }
 
@@ -1170,7 +1159,7 @@
         margin-top: 40px;
     }
 
-    .news_head h1 {
+    .news_head h2 {
         font-size: 20px;
         line-height: 16px;
     }
@@ -1269,7 +1258,6 @@
 
     .posts_item {
         width: 170px;
-        border: 1px solid #ededed;
         height: max-content;
     }
 
@@ -1451,10 +1439,10 @@
     line-height: 18px;
 }
 
-.second_text_parag {
+/* .second_text_parag {
     font-size: 14px;
     line-height: 14px;
-}
+} */
 
 .social_icon {
     margin-top: 10px;

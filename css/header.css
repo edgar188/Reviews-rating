@@ -22,12 +22,7 @@ header {
 .header_nav {
     float: right;
 }
-
-.header_nav ul {
-    list-style-type: none;
-}
-
-.header_nav ul li {
+.header_nav li {
     float: left;
     margin-right: 32px;
     margin-top: 5px;

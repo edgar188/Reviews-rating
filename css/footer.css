@@ -122,17 +122,17 @@
     text-align: right;
 }
 
-.first_text_parag {
+.first_parag_link {
     font-size: 18px;
     line-height: 22px;
     font-weight: 300;
+    color: #fff;
 }
 
-.second_text_parag {
-    font-size: 28.98px;
+/* .second_text_parag {
     line-height: 18px;
     font-weight: 300;
-}
+} */
 
 .business_word {
     font-weight: 500;
@@ -165,9 +165,9 @@
     opacity: 1;
 }
 
-.icon-facebook,
+/* .icon-facebook,
 .icon-twitter,
 .icon-google,
 .icon-rss {
     font-family: "initial";
-}
+} */

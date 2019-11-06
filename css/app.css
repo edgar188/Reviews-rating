@@ -27,9 +27,32 @@ input, textarea, button {
     outline: none;
 }
 
+::-webkit-input-placeholder, :-ms-input-placeholder, ::placeholder { 
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 16px; */
+    line-height: 42px;
+  }
+  
+  :-ms-input-placeholder {
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 16px; */
+    line-height: 42px;
+  }
+  
+  ::placeholder {
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 16px; */
+    line-height: 42px;
+  }
+
 ul {
     list-style-type: none;
 }
+
+
 
 .app {
     font-family: 'Roboto', sans-serif;
