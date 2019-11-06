@@ -6,6 +6,7 @@
 @import './posts.css';
 @import './contact.css';
 @import './footer.css';
+@import './font-icons/style.css';
 @import './media_queries.css';
 
 * {

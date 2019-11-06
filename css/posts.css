@@ -11,7 +11,7 @@
 
 .posts_container {
     max-width: 1030px;
-    margin: 80px auto 0 auto;
+    margin: 80px auto 0;
 }
 
 .posts_container::after {
@@ -43,13 +43,13 @@
 }
 
 .posts_item {
-    width: 330px;
     float: left;
-    height: 520px;
+    width: 32%;
     overflow: hidden;
-    border-top: none;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-height: 520px;
+    padding-bottom: 10px;
 }
 
 .posts_item:nth-of-type(3n+2) {
@@ -62,6 +62,8 @@
 
 .posts_date {
     max-width: 270px;
+    max-height: 20px;
+    overflow: hidden;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -79,8 +81,9 @@
 
 .posts_title {
     max-width: 270px;
-    margin: 0 auto;
-    margin-top: 30px;
+    max-height: 44px;
+    margin: 30px auto 0;
+    overflow: hidden;
     font-size: 16px;
     line-height: 22px;
     color: #555;
@@ -88,11 +91,9 @@
 
 .posts_description {
     max-width: 270px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px auto;
     word-break: break-all;
- }
+}
 
 .posts_btn_container {
     margin-top: 105px;
