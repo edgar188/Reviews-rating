@@ -1,28 +1,25 @@
 .contact {
-    background: url("../images/contact/mapBG.jpg");
-    height: 672px;
     margin-top: 100px;
+    max-height: 700px;
+    overflow: hidden;
 }
 
-.contact_container::before {
+/* .contact_container::before {
     clear: both;
     content: "";
     display: table;
-}
+} */
 
 .contact_container {
-    max-width: 1030px;
-    margin: 0 auto;
+    position: relative;
 }
 
 .contact_form {
     text-align: center;
-    margin-top: 100px;
 }
 
 .input_field, .textarea_field {
-    width: 650px;
-    color: #868686;
+    width: 100%;
     border: none;
     text-indent: 20px;
     line-height: 42px;
@@ -30,14 +27,14 @@
 }
 
 .input_field {
-    height: 45px;
+    padding: 1.5px 0;
     margin-bottom: 35px;
     border-radius: 30px;
 }
 
 .textarea_field {
-    height: 130px;
     border-radius: 20px;
+    padding-bottom: 46px;
 }
 
 .contact_btn {
@@ -46,9 +43,30 @@
     font-size: 18px;
     line-height: 22px;
     text-transform: uppercase;
-    height: 62px;
-    width: 210px;
+    padding: 21px 0px;
+    width: 50%;
+    max-width: 210px;
     border: none;
     border-radius: 30px;
     margin-top: 50px;
 }
+
+#map {
+    min-height: 700px;
+    width: 100%;
+}
+
+.contact_form_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 5% auto;
+}
+
+.contact_form_container form {
+    width: 50%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+

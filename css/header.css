@@ -54,7 +54,7 @@ header {
     display: none;
 }
 
-.toggle i:hover {
+.toggle span:hover {
     cursor: pointer;
 }
 

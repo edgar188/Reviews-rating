@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'initial';
-  src:  url('fonts/initial.eot?4n3yrw');
-  src:  url('fonts/initial.eot?4n3yrw#iefix') format('embedded-opentype'),
-    url('fonts/initial.ttf?4n3yrw') format('truetype'),
-    url('fonts/initial.woff?4n3yrw') format('woff'),
-    url('fonts/initial.svg?4n3yrw#initial') format('svg');
+  src:  url('fonts/initial.eot?5prxkg');
+  src:  url('fonts/initial.eot?5prxkg#iefix') format('embedded-opentype'),
+    url('fonts/initial.ttf?5prxkg') format('truetype'),
+    url('fonts/initial.woff?5prxkg') format('woff'),
+    url('fonts/initial.svg?5prxkg#initial') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -33,6 +33,12 @@
 }
 .icon-twitter:before {
   content: "\e902";
+}
+.icon-date:before {
+  content: "\10ffff";
+}
+.icon-menu:before {
+  content: "\e9bd";
 }
 .icon-facebook:before {
   content: "\ea90";

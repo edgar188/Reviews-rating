@@ -67,15 +67,8 @@
     margin-top: 30px;
 }
 
-.posts_date_img {
-    margin-right: 15px;
-    float: left;
-}
-
-.posts_date_img::after {
-    clear: both;
-    content: "";
-    display: table;
+.icon-date {
+    margin-right: 3%;
 }
 
 .posts_title {

@@ -231,29 +231,20 @@
     }
 
      /* -------------------- Contact ----------------------- */
-     .contact {
-        height: 550px;
-        margin-top: 60px;
-    }
+     
     
-    .contact_form {
-        margin-top: 60px;
-    }
-    
-    .input_field, .textarea_field {
+    /* .input_field, .textarea_field {
         width: 380px;
-    }
+    } */
     
-    .input_field {
+    /* .input_field {
         height: 40px;
         margin-bottom: 30px;
-    }
-    
+    } */
     .contact_btn {
         font-size: 16px;
-        height: 40px;
-        width: 140px;
-        margin-top: 40px;
+        line-height: 20px;
+        padding: 15px 0px;
     }
 
     /* ------------------ Footer top-bottom -------------------- */
@@ -275,8 +266,14 @@
     }
 
     .footer_top_content_section .section_text {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 20px;
+        max-height: 140px;
+        overflow: hidden;
+    }
+
+    .section_text.signup {
+        max-height: 60px;
     }
 
     .tweet {
@@ -288,28 +285,35 @@
     }
 
     .feed_back_field, .feed_back_submit {
-        height: 30px;
+        padding: 3px;
     }
 
     .feed_back_field {
-        width: 170px;
-        font-size: 12px;
+        width: 72%;
+        font-size: 14px;
     }
 
     .feed_back_submit {
         border-radius: 0px 25px 25px 0px;
-        width: 65px;
+        width: 26%;
         font-size: 12px;
+        font-size: 12px;
+        padding-top: 4px;
+        padding-bottom: 2px;
     }
 
     /* ------------------- Footer bottom -------------------- */
-    .first_text_parag {
+    /* .first_text_parag {
+        font-size: 16px;
+    } */
+
+    .first_parag_link {
         font-size: 16px;
     }
     
-    /* .second_text_parag {
-        font-size: 22px;
-    } */
+    .footer_bottom_business_logo {
+        width: 160px;
+    }
 }
 
  @media (min-width: 770px) {
@@ -535,134 +539,123 @@
 
      /* ------------------------ Contact --------------------------- */
      .contact {
-        height: 480px;
+        max-height: 500px;
         margin-top: 40px;
     }
     
     .input_field, .textarea_field {
-        width: 280px;
         text-indent: 16px;
         line-height: 22px;
         font-size: 14px;
     }
     
     .input_field {
-        height: 40px;
+        padding: 7px;
         margin-bottom: 30px;
-    }
-    
-    .textarea_field {
-        height: 90px;
     }
     
     .contact_btn {
         font-size: 14px;
         line-height: 18px;
-        height: 35px;
-        width: 110px;
-        margin-top: 30px;
+        padding: 7px 0;
     }
     
 /* -------------------- Footer top --------------------- */
-.footer_top {
-    height: auto;
-}
+    .footer_top {
+        height: auto;
+    }
 
-.footer_top_content {
-    margin-top: 10px;
-}
+    .footer_top_content {
+        margin-top: 10px;
+        padding: 5px 0;
+    }
 
-.footer_top_content_section {
-    width: 100%;
-    margin: -10px auto 15px auto;
-}
+    .footer_top_content_section {
+        float: none;
+        width: 100%;
+        margin: -10px auto 15px;
+    }
 
-.footer_top_content_section .section_head {
-    font-size: 16px;
-    margin-bottom: 15px;
-}
+    .footer_top_content::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
 
-.footer_top_content_section .section_text {
-    font-size: 12px;
-    line-height: 18px;
-}
+    .footer_top_content_section .section_head {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
 
-.section_container {
-    max-width: 80%;
-    margin: 0 auto;
-}
+    .footer_top_content_section .section_text {
+        font-size: 12px;
+        line-height: 18px;
+    }
 
-.section_container img {
-    margin-right: 15px;
-    width: 25px;
-}
+    .section_container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 
-.tweet {
-    max-height: 40px;
-}
+    .section_container img {
+        margin-right: 15px;
+        width: 25px;
+    }
 
-.tweet img {
-    padding-bottom: 30px;
-}
+    .tweet {
+        max-height: 40px;
+    }
 
-.feed_back_field, .feed_back_submit {
-    height: 20px;
-    line-height: 20px;
-    margin-top: 20px;
-}
+    .tweet img {
+        padding-bottom: 30px;
+    }
 
-.feed_back_field {
-    border-radius: 25px 0px 0px 25px;
-    width: 110px;
-    font-size: 10px;
-    margin-right: -4px;
-    text-indent: 12px;
-}
+    .feed_back_field, .feed_back_submit {
+        padding: 2px;
+    }
 
-.feed_back_submit {
-    border-radius: 0px 25px 25px 0px;
-    width: 50px;
-    font-size: 10px;
-}
+    .feed_back_field {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .feed_back_submit {
+        width: 20%;
+        font-size: 12px;
+        padding-top: 3px;
+        padding-bottom: 1px;
+    }
 
 /* ------------------- Footer bottom -------------------- */
 
-.footer_bottom {
-    height: 90px;
-}
+    .footer_bottom {
+        min-height: 135px;
+    }
 
-.footer_bottom_content {
-    max-width: 60%;
-    margin-top: 20px;
-}
+    .footer_bottom_content {
+        max-width: 60%;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 18px;
+    }
 
-.footer_bottom_content_section {
-    text-align: center;
-    width: 45%;
-}
+    .footer_bottom_content_section,
+    .footer_bottom_content_section:first-of-type,
+    .footer_bottom_content_section:last-of-type {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
-.footer_bottom_content_section:first-of-type {
-    margin: auto 20px;
-}
+    .social_icon {
+        margin-top: 10px;
+        margin-right: 15px;
+    }
 
-.footer_bottom_content_section:last-of-type {
-    width: 100%;
-}
+    .footer_bottom_business_logo {
+        width: 120px;
+    }
 
-.first_text_parag {
-    font-size: 12px;
-    line-height: 18px;
-}
-
-/* .second_text_parag {
-    font-size: 16px;
-    line-height: 14px;
-} */
-
-.social_icon {
-    margin-top: 10px;
-    margin-right: 15px;
-}
 }
 
 @media (max-width: 425px) {
@@ -886,46 +879,27 @@
 
     /* -------------------- Contact ----------------------- */
     .contact {
-        height: 350px;
-        margin-top: 40px;
-    }
-    
-    .contact_container {
-        max-width: 80%;
-    }
-    
-    .contact_form {
+        max-height: 400px;
         margin-top: 40px;
     }
     
     .input_field, .textarea_field {
-        width: 200px;
-        text-indent: 12px;
-        line-height: 20px;
-        font-size: 12px;
+        text-indent: 16px;
+        line-height: 22px;
+        font-size: 14px;
     }
     
     .input_field {
-        height: 25px;
-        margin-bottom: 25px;
-        border-radius: 20px;
-    }
-    
-    .textarea_field {
-        height: 70px;
-        border-radius: 10px;
-    }
-    
-    .contact_btn {
-        font-size: 10px;
-        line-height: 14px;
-        height: 25px;
-        width: 80px;
-        border-radius: 20px;
-        margin-top: 20px;
+        padding: 5px;
     }
 
-    
+    .contact_btn {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 0;
+    }
+        
 /* -------------------- Footer top --------------------- */
 .footer_top {
     height: auto;
@@ -981,52 +955,48 @@
 }
 
 .feed_back_field {
-    border-radius: 20px 0px 0px 20px;
-    width: 90px;
-    font-size: 10px;
-    margin-right: -4px;
-    text-indent: 12px;
+    width: 50%;
+    font-size: 12px;
 }
 
 .feed_back_submit {
-    border-radius: 0px 20px 20px 0px;
-    width: 45px;
     font-size: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
+
 
 /* ------------------- Footer bottom -------------------- */
 
 .footer_bottom {
-    height: 90px;
+    min-height: 90px;
+    font-size: 12px;
 }
 
 .footer_bottom_content {
     max-width: 80%;
-    margin-top: 20px;
-}
-
-.footer_bottom_content_section:first-of-type {
-    margin: auto 10px;
+    margin-top: 10px;
 }
 
 .footer_bottom_content_section:last-of-type {
-    width: 80%;
+    /* display: none; */
 }
 
-.first_text_parag {
-    font-size: 10px;
+.first_parag_link {
+    font-size: 12px;
     line-height: 18px;
 }
 
-/* .second_text_parag {
-    font-size: 14px;
-    line-height: 14px;
-} */
-
-.social_icon {
-    margin-top: 10px;
-    margin-right: 15px;
+.footer_bottom_content_section, 
+.footer_bottom_content_section:first-of-type, 
+.footer_bottom_content_section:last-of-type {
+    margin-bottom: 10px;
 }
+
+.footer_bottom_business_logo {
+    width: 100px;
+}
+
 }
 
 @media (max-width: 320px) {
@@ -1204,158 +1174,117 @@
     }
 
     /* -------------------- Contact ----------------------- */
-    .contact {
-        height: 300px;
-        margin-top: 40px;
-    }
-    
-    .contact_container {
-        max-width: 80%;
-    }
-    
-    .contact_form {
-        margin-top: 40px;
-    }
-    
     .input_field, .textarea_field {
-        width: 180px;
-        text-indent: 12px;
-        line-height: 20px;
-        font-size: 10px;
+        text-indent: 16px;
+        line-height: 22px;
+        font-size: 12px;
     }
     
     .input_field {
-        height: 20px;
-        margin-bottom: 15px;
-        border-radius: 20px;
+        padding: 3px;
     }
-    
-    .textarea_field {
-        height: 60px;
-        border-radius: 10px;
+
+    .contact_btn {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 0;
     }
     
     .contact_btn {
+        padding: 5px;
         font-size: 8px;
         line-height: 14px;
-        height: 25px;
-        width: 70px;
-        border-radius: 20px;
         margin-top: 15px;
     }
 
-    /* ------------------- Footer --------------------- */
+/* ------------------- Footer --------------------- */
 
 /* --------- Footer top-bottom ---------- */
 
-.footer_top_content, .footer_bottom_content {
-    max-width: 1030px;
-    margin: 0 auto;
-}
-
-.footer_bottom_content_section {
-    display: inline-block;
-    vertical-align: top;
-}
 
 /* -------------------- Footer top --------------------- */
-.footer_top {
-    height: auto;
-}
+    .footer_top {
+        height: auto;
+    }
 
-.footer_top_content {
-    margin-top: 10px;
-}
+    .footer_top_content {
+        margin-top: 10px;
+    }
 
-.footer_top_content_section {
-    width: 100%;
-    margin: 0 auto 15px;
-}
+    .footer_top_content_section {
+        width: 100%;
+        margin: 0 auto 15px;
+    }
 
-.footer_top_content_section .section_head {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
+    .footer_top_content_section .section_head {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 
-.footer_top_content_section .section_text {
-    font-size: 10px;
-    line-height: 18px;
-}
+    .footer_top_content_section .section_text {
+        font-size: 10px;
+        line-height: 18px;
+    }
 
-.section_container {
-    max-width: 80%;
-    margin: 0 auto;
-}
+    .section_container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 
-.section_container img {
-    margin-right: 10px;
-    width: 20px;
-}
+    .section_container img {
+        margin-right: 10px;
+        width: 20px;
+    }
 
-.tweet {
-    max-height: 60px;
-    overflow: hidden;
-}
+    .tweet {
+        max-height: 60px;
+        overflow: hidden;
+    }
 
-.tweet img {
-    padding-bottom: 40px;
-}
+    .tweet img {
+        padding-bottom: 40px;
+    }
 
-.user_email {
-    margin-right: 5px;
-}
+    .user_email {
+        margin-right: 5px;
+    }
 
-.feed_back_field, .feed_back_submit {
-    height: 20px;
-    line-height: 20px;
-    margin-top: 20px;
-}
+    .feed_back_field {
+        font-size: 10px;
+    }
 
-.feed_back_field {
-    border-radius: 20px 0px 0px 20px;
-    width: 90px;
-    font-size: 8px;
-    margin-right: -4px;
-    text-indent: 12px;
-}
-
-.feed_back_submit {
-    border-radius: 0px 20px 20px 0px;
-    width: 45px;
-    font-size: 8px;
-}
+    .feed_back_submit {
+        font-size: 8px; 
+    }
 
 /* ------------------- Footer bottom -------------------- */
 
-.footer_bottom {
-    height: 90px;
-}
+    .footer_bottom {
+        min-height: 45px;
+    }
 
-.footer_bottom_content {
-    max-width: 80%;
-    margin-top: 20px;
-}
+    .footer_bottom_content_section:last-of-type {
+        font-size: 10px;
+        width: 90%;
+    }
 
-.footer_bottom_content_section:first-of-type {
-    margin: auto 10px;
-}
+    .social_icon {
+        margin-top: 10px;
+        margin-right: 15px;
+    }
 
-.footer_bottom_content_section:last-of-type {
-    width: 80%;
-}
+    .footer_bottom {
+        min-height: 90px;
+    }
 
-.first_text_parag {
-    font-size: 10px;
-    line-height: 18px;
-}
+    .first_parag_link {
+        font-size: 10px;
+        line-height: 16px;
+    }
 
-/* .second_text_parag {
-    font-size: 14px;
-    line-height: 14px;
-} */
+    .footer_bottom_business_logo {
+        width: 80px;
+    }
 
-.social_icon {
-    margin-top: 10px;
-    margin-right: 15px;
-}
 }

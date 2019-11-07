@@ -2,7 +2,7 @@
 
 function responsiveNavbar() {
     var navList = document.getElementById("nav_list");
-
+    
     if (navList.className === "nav_list") {
         navList.className += " responsive"
     } 
@@ -74,7 +74,46 @@ function introSlider(target) {
     }
 }
 
+// ------------------------ Intro slider --------------------------
+$('#owl-demo').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items:1
+})
 
+// ------------------------ Partners slider --------------------------
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            dots: true,
+        },
+        768: {
+            items: 2,
+        },
+        992: {
+            items: 3,
+        },
+        1200: {
+            items: 4
+        }
+    }
+})
 
+// ------------------------ Initialize and add the map--------------------------
+function initMap() {
+    // The location of Uluru
+    var uluru = {lat: -25.344, lng: 131.036};
+    // The map, centered at Uluru
+    var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: uluru, draggable: false, zoomControl: false});
+    // map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
 
-
+    // The marker, positioned at Uluru
+    // var marker = new google.maps.Marker({position: uluru, map: map});
+}
