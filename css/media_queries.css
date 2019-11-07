@@ -232,15 +232,6 @@
 
      /* -------------------- Contact ----------------------- */
      
-    
-    /* .input_field, .textarea_field {
-        width: 380px;
-    } */
-    
-    /* .input_field {
-        height: 40px;
-        margin-bottom: 30px;
-    } */
     .contact_btn {
         font-size: 16px;
         line-height: 20px;
@@ -303,10 +294,6 @@
     }
 
     /* ------------------- Footer bottom -------------------- */
-    /* .first_text_parag {
-        font-size: 16px;
-    } */
-
     .first_parag_link {
         font-size: 16px;
     }
@@ -334,7 +321,6 @@
     .logo {
         width: 70%;
     }
-
 
     .toggle {
         right: 28%;
@@ -976,10 +962,6 @@
 .footer_bottom_content {
     max-width: 80%;
     margin-top: 10px;
-}
-
-.footer_bottom_content_section:last-of-type {
-    /* display: none; */
 }
 
 .first_parag_link {
