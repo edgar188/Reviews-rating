@@ -75,6 +75,7 @@
     float: right;
 }
 
+/* .owl-nav { display: block !important;float: left; } */
 
 .partners_slider_img_prev:hover, 
 .partners_slider_img_next:hover {
