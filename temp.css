@@ -1,0 +1,94 @@
+.global_section_container {
+    width: 80%;
+    max-width: 1030px;
+}
+
+.global_head_container {
+    text-align: center;
+}
+
+.global_head {
+    font-family: 'BebasNeue Regular';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.global_paragraph {
+    font-size: 16px;
+}
+
+.global_button_load {
+    /* background-color: #2e9bd4; */
+    /* color: #fff; */
+    border: 6px solid #ededed;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    max-width: 210px;
+    width: 30%;
+    border-radius: 30px;
+}
+
+
+/* ----------------- media  max-width 1024 ---------------- */
+
+.global_head {
+    font-size: 32px;
+}
+
+/* ----------------- media  max-width 768 ----------------- */
+
+.global_section_container {
+    width: 70%;
+}
+
+.global_head {
+    font-size: 28px;
+}
+
+.global_paragraph {
+    font-size: 14px;
+}
+
+.global_button_load {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+
+/* --------------- media  max-width 425 ---------------- */
+
+.global_head {
+    font-size: 24px;
+}
+
+.global_paragraph {
+    font-size: 12px;
+}
+
+.global_button_load {
+    width: 35%;
+    font-size: 12px;
+}
+
+/* --------------- media  max-width 320 ---------------- */
+
+.global_head {
+    font-size: 20px;
+}
+
+.global_button_load {
+    padding: 5px;
+    font-size: 10px;
+    border-width: 1px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
