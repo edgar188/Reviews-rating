@@ -1,0 +1,42 @@
+.global_section_container {
+    width: 80%;
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.global_section_container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.global_head_container {
+    text-align: center;
+}
+
+.global_head {
+    font-family: 'BebasNeue Regular';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.global_text {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.global_button_load {
+    /* background-color: #2e9bd4; */
+    /* color: #fff; */
+    /* border: 6px solid #ededed; */
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    max-width: 210px;
+    width: 30%;
+    border-radius: 30px;
+}
+

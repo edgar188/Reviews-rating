@@ -1,20 +1,19 @@
 .intro {
     background-color: #42a5d8;
     color: #fff;
-}
-
-.intro_container {
-    max-width: 1030px;
-    margin: 0 auto;
     padding-top: 84px;
 }
+
+/* .intro_container {
+    max-width: 1030px;
+    margin: 0 auto;
+} */
 
 .hero {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 50px;
-    /* height: 320px; */
 }
 
 .top_text {

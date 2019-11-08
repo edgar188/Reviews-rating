@@ -1,3 +1,4 @@
+@import './global-classes.css';
 @import './header.css';
 @import './intro.css';
 @import './categories.css';
@@ -29,7 +30,11 @@ input, textarea, button {
     outline: none;
 }
 
-::-webkit-input-placeholder, :-ms-input-placeholder, ::placeholder { 
+ul {
+    list-style-type: none;
+}
+
+::-webkit-input-placeholder { 
     color: #868686;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 42px;
@@ -47,15 +52,9 @@ input, textarea, button {
     line-height: 42px;
   }
 
-ul {
-    list-style-type: none;
-}
-
 .app {
     font-family: 'Roboto-light', sans-serif;
 }
 
 
-.news_head {
-    font-family: 'BebasNeue Regular';
-}
+

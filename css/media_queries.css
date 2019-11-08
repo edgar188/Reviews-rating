@@ -1,18 +1,11 @@
 @media (max-width: 1440px) {
     /* -------------------------- Header ------------------------------ */
-    .header_container {
-        max-width: 80%;
-    }
-
+    
     .logo {
         width: 100%;
     }
 
     /* ---------------------- Intro (Hero) --------------------------- */
-    .intro_container {
-        max-width: 80%;
-    }
-
     .top_text {
         font-size: 60px;
     }
@@ -32,11 +25,14 @@
 
 @media (max-width: 1024px) {
 
-    /* ------------------- Intro ------------------------- */
-    .intro_container {
-        max-width: 80%;
+    /* ------------------- Global classes ------------------- */
+
+    .global_head {
+        font-size: 32px;
     }
 
+    /* ------------------- Intro ------------------------- */
+    
     .logo {
         width: 80%;
     }
@@ -86,12 +82,6 @@
 
     /* ---------------------- Categories -------------------------- */
 
-    .categories_container {
-        max-width: 80%;
-        text-align: center;
-        margin-top: 60px;
-    }
-
     .categories_item {
         width: 30%;
         margin: 0 20px 20px 0;
@@ -101,22 +91,7 @@
         width: 60px;
     }
 
-    .categ_text {
-        font-size: 14px;
-        line-height: 20px;
-        margin: 5px 0 12px 5px;
-    }
-
     /* ---------------------------- News ----------------------------- */
-
-    .news_container {
-        max-width: 80%;
-        margin-top: 40px;
-    }
-
-    .news_head h1 {
-        font-size: 28px;
-    }
 
     .news_list {
         margin: 30px auto 20px;
@@ -126,33 +101,8 @@
         margin-bottom: 10px;
     }
 
-    .news_title, .news_description {
-        font-size: 14px;
-        line-height: 16px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-
-    .news_description {
-        margin-bottom: 10px;
-        max-height: 32px
-    }
-
-    .news_item a {
-        margin-left: 10px;
-        font-size: 14px;
-    }
-
     /* -------------------------- Partners -------------------------------- */
     
-    .partners_container {
-        max-width: 80%;
-    }
-
-    .partners_head h1 {
-        font-size: 28px;
-    }
-
     .partners_slider {
         margin-top: 60px;
     }
@@ -184,15 +134,6 @@
 
     /* --------------------- Posts ------------------------ */
 
-    .posts_container {
-        max-width: 80%;
-        margin: 60px auto 0;
-    }
-
-    .posts_head h2 {
-        font-size: 28px;
-    }
-
     .posts_list {
         margin: 60px auto 0;
         margin-top: 60px;
@@ -203,14 +144,12 @@
     }
 
     .posts_title, .posts_description, .posts_date {
-        font-size: 16px;
         margin-top: 10px;
         margin-left: 10%;
     }
 
     .posts_date {
         margin-top: 15px;
-        font-size: 14px;
     }
 
     .posts_item:nth-of-type(3n+2) {
@@ -238,12 +177,6 @@
         padding: 15px 0px;
     }
 
-    /* ------------------ Footer top-bottom -------------------- */
-
-    .footer_top_content, .footer_bottom_content {
-        max-width: 80%;
-    }
-
     /* -------------------- Footer top --------------------- */
 
     .footer_top_content_section {
@@ -251,13 +184,11 @@
     }
 
     .footer_top_content_section .section_head {
-        font-size: 16px;
         margin-bottom: 25px;
         margin-top: 10px;
     }
 
     .footer_top_content_section .section_text {
-        font-size: 14px;
         line-height: 20px;
         max-height: 140px;
         overflow: hidden;
@@ -268,6 +199,7 @@
     }
 
     .tweet {
+        margin-bottom: 5px;
         max-height: 80px;
     }
 
@@ -294,9 +226,6 @@
     }
 
     /* ------------------- Footer bottom -------------------- */
-    .first_parag_link {
-        font-size: 16px;
-    }
     
     .footer_bottom_business_logo {
         width: 160px;
@@ -310,18 +239,38 @@
 } 
 
 @media (max-width: 768px) {
+
+    /* ----------------- Global classes ------------------ */
+
+    .global_section_container {
+        width: 45%;
+    }
+
+    .global_head {
+        font-size: 28px;
+    }
+
+    .global_text {
+        font-size: 14px;
+    }
+
+    .global_button_load {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
     /* ------------------------ Header -------------------------- */
 
     .nav_list {
         position: absolute;
-        background-color: darkcyan;
+        /* background-color: darkcyan; */
         width: 100%;
-        min-height: 100vh;
-        height: 100%;
+        /* min-height: 100vh; */
+        /* height: 100%; */
         top: 0;
         left: 0;
         right: 0;
-        z-index: 10;
+        z-index: 0;
         text-align: center;
         opacity: 0.5;
         padding: 80px 0;
@@ -342,7 +291,7 @@
     }
 
     .toggle {
-        position: fixed;
+        position: absolute;
         right: 10%;
         top: 56px;
         display: block;
@@ -413,10 +362,8 @@
 
     /* ---------------------- Categories -------------------------- */
 
-    .categories_container {
-        max-width: 80%;
-        margin-top: 40px;
-        margin-left: 15%;
+    .categ_section {
+        width: 60%;
     }
 
     .categories_item {
@@ -431,15 +378,6 @@
 
      /* ---------------------------- News ----------------------------- */
 
-     .news_container {
-        margin-top: 40px;
-    }
-
-    .news_head h2 {
-        font-size: 24px;
-        line-height: 18px;
-    }
-
     .news_item {
         width: 80%;
         margin: 0 10% 40px 10%;
@@ -449,21 +387,8 @@
         margin-left: 10%;
     }
 
-    .news_title, .news_description {
-        font-size: 16px;
-        line-height: 18px;
-        margin-top: 10px;
-        margin-left: 20px;
-    }
-
-    .news_description {
-        margin-bottom: 10px;
-        max-height: 38px;
-    }
-
-    .news_item a {
-        margin-left: 20px;
-        font-size: 16px;
+    .global_text.news_title, .global_text.news_description {
+        margin: 20px;
     }
 
     /* ------------------------ Partners ---------------------------- */
@@ -473,17 +398,8 @@
         min-height: 180px;
     }
 
-    .partners_container {
-        max-width: 80%;
-    }
-
-    .partners_head {
+    .global_head_container.partners_head_container {
         margin-top: 40px;
-    }
-
-    .partners_head h1 {
-        font-size: 24px;
-        line-height: 18px;
     }
 
     .partners_slider {
@@ -513,11 +429,6 @@
 
     /* ------------------------- Posts ---------------------------- */
 
-    .posts_head h1 {
-        font-size: 24px;
-        line-height: 18px;
-    }
-
     .posts_item {
         width: 80%;
         margin-left: 10%;
@@ -529,13 +440,10 @@
         margin-bottom: 40px;
     }
 
+    .posts_title, 
+    .posts_description, 
     .posts_date {
-        margin-top: 15px;
-    }
-
-    .posts_title, .posts_description, .posts_date {
         margin-top: 10px;
-        max-width: 80%;
     }
 
     .posts_btn_container {
@@ -548,6 +456,7 @@
     }
 
      /* ------------------------ Contact --------------------------- */
+
      .contact {
         max-height: 500px;
         margin-top: 40px;
@@ -556,7 +465,6 @@
     .input_field, .textarea_field {
         text-indent: 16px;
         line-height: 22px;
-        font-size: 14px;
     }
     
     .input_field {
@@ -571,9 +479,9 @@
     }
     
 /* -------------------- Footer top --------------------- */
-    .footer_top {
+    /* .footer_top {
         height: auto;
-    }
+    } */
 
     .footer_top_content {
         margin-top: 10px;
@@ -583,23 +491,17 @@
     .footer_top_content_section {
         float: none;
         width: 100%;
-        margin: -10px auto 15px;
-    }
-
-    .footer_top_content::after {
-        clear: both;
-        content: "";
-        display: table;
+        margin: 0 auto 15px;
     }
 
     .footer_top_content_section .section_head {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 15px;
     }
 
     .footer_top_content_section .section_text {
-        font-size: 12px;
-        line-height: 18px;
+        max-height: 90px;
+        line-height: 22px;
     }
 
     .section_container {
@@ -613,6 +515,7 @@
     }
 
     .tweet {
+        margin-bottom: 15px;
         max-height: 40px;
     }
 
@@ -669,6 +572,22 @@
 }
 
 @media (max-width: 425px) {
+
+    /* -------------- Global classes ---------------- */
+
+    .global_head {
+        font-size: 24px;
+    }
+    
+    .global_text {
+        font-size: 12px;
+    }
+    
+    .global_button_load {
+        width: 35%;
+        font-size: 12px;
+    }
+
     /* ------------------------ Header --------------------------- */
     .header_nav .link {
         font-size: 10px;
@@ -690,7 +609,7 @@
 
     /* ---------------------- Intro (Hero) --------------------------- */
     
-    .intro_container {
+    .intro {
         padding-top: 44px;
     }
 
@@ -751,73 +670,35 @@
 
     /* ---------------------- Categories -------------------------- */
 
-    .categories_container {
-        max-width: 80%;
-        margin-top: 40px;
-    }
-
     .categories_item {
-        width: 60%;
+        width: 80%;
         margin-bottom: 20px;
         margin-left: 10%;
     }
 
-    .categ_text {
-        font-size: 14px;
-    }
-
     /* ---------------------------- News ----------------------------- */
-
-    .news_container {
-        max-width: 80%;
-        margin-top: 40px;
-    }
-
-    .news_head h2 {
-        font-size: 20px;
-        line-height: 16px;
-    }
 
     .news_list {
         max-width: 80%;
         margin: 30px auto 20px;
     }
 
-    .news_title, .news_description {
-        font-size: 12px;
-        line-height: 14px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-
-    .news_title {
-        max-height: 14px;
-    }
-
-    .news_description {
-        margin-bottom: 10px;
-        max-height: 42px;
+    .global_text.news_title, .global_text.news_description {
+        margin: 10px;
     }
 
     .news_item a {
-        font-size: 12px;
         margin-left: 10px;
     }
 
     /* --------------------- Partners ----------------------------- */
 
     .partners {
-        margin-top: 40px;
         min-height: 200px;
     }
 
-    .partners_head {
+    .global_head_container.partners_head_container{
         margin-top: 40px;
-    }
-
-    .partners_head h2 {
-        font-size: 20px;
-        line-height: 16px;
     }
 
     .partners_slider {
@@ -843,43 +724,29 @@
 
     /* --------------- Posts ---------------------- */
 
-    .posts_container {
-        max-width: 80%;
-        margin: 60px auto 0px;
-    }
-
-    .posts_head h2 {
-        font-size: 20px;
-        line-height: 16px;
-    }
-
     .posts_list {
         max-width: 80%;
-        margin: 60px auto 0px;
-        margin-top: 60px;
+        margin: 60px auto 0;
     }
 
     .posts_date {
         max-height: 14px;
-        margin-top: 15px;
     }
 
-    .posts_title, .posts_description, .posts_date {
-        font-size: 12px;
+    .posts_title, 
+    .posts_description,
+     .posts_date {
         line-height: 16px;
         margin-top: 10px;
     }
 
-    .posts_date {
-        font-size: 12px;
-    }
-
     .posts_title {
         max-height: 34px;
+        margin-bottom: 10px;
     }
 
     .posts_description {
-        max-height: 96px;
+        max-height: 98px;
         overflow: hidden;
     }
 
@@ -900,9 +767,8 @@
     }
     
     .input_field, .textarea_field {
-        text-indent: 16px;
+        text-indent: 14px;
         line-height: 22px;
-        font-size: 14px;
     }
     
     .input_field {
@@ -917,33 +783,10 @@
     }
         
 /* -------------------- Footer top --------------------- */
-.footer_top {
-    height: auto;
-}
-
-.footer_top_content {
-    margin-top: 10px;
-}
-
-.footer_top_content_section {
-    width: 100%;
-    margin: 0 auto 15px;
-}
-
-.footer_top_content_section .section_head {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
 
 .footer_top_content_section .section_text {
-    font-size: 10px;
     line-height: 18px;
-    font-weight: 300;
-}
-
-.section_container {
-    max-width: 80%;
-    margin: 0 auto;
+    max-height: 52px;
 }
 
 .section_container img {
@@ -952,8 +795,7 @@
 }
 
 .tweet {
-    max-height: 60px;
-    overflow: hidden;
+    max-height: 36px;
 }
 
 .tweet img {
@@ -981,12 +823,10 @@
     padding-bottom: 1px;
 }
 
-
 /* ------------------- Footer bottom -------------------- */
 
 .footer_bottom {
     min-height: 90px;
-    font-size: 12px;
 }
 
 .footer_bottom_content {
@@ -995,7 +835,6 @@
 }
 
 .first_parag_link {
-    font-size: 12px;
     line-height: 18px;
 }
 
@@ -1012,13 +851,26 @@
 }
 
 @media (max-width: 320px) {
+
+    /* --------------- Global classes ---------------- */
+
+    .global_head {
+        font-size: 20px;
+    }
+
+    .global_button_load {
+        padding: 5px;
+        font-size: 10px;
+        border-width: 1px;
+        border-radius: 30px;
+    }
+    
     /* ------------------------ Header --------------------------- */
     
     .toggle {
         top: 69px;
         font-size: 16px;
     }
-
 
     .header_nav .link {
         font-size: 10px;
@@ -1074,15 +926,9 @@
     }
 
     /* ---------------------- Categories -------------------------- */
-
-    .categories_container {
-        max-width: 100%;
-        margin-top: 40px;
-    }
-
+    
     .categories_item {
         margin-bottom: 20px;
-        margin-left: 10%;
     }
 
     .categories_item img {
@@ -1092,12 +938,12 @@
 
     /* ----------------------- News ------------------------- */
    
-    .news_title {
-        max-height: 14px;
+    .global_text.news_title, .global_text.news_description {
+        margin: 5px 10px;
     }
 
-    .news_description {
-        max-height: 55px;
+    .news_item a {
+        margin-left: 12px;
     }
 
     /* --------------------- Partners ----------------------------- */
@@ -1107,18 +953,8 @@
         min-height: 200px;
     }
 
-    .partners_container {
-        max-width: 80%;
-        margin: 0 auto;
-    }
-
-    .partners_head {
+    .global_head_container.partners_head_container {
         margin-top: 40px;
-    }
-
-    .partners_head h1 {
-        font-size: 20px;
-        line-height: 16px;
     }
 
     .partners_slider {
@@ -1149,17 +985,11 @@
     }
 
     .posts_title, .posts_description, .posts_date {
-        font-size: 10px;
         line-height: 14px;
         margin-top: 10px;
-        margin-left: 10px;
-        word-break: break-word;
+        margin-left: 15px;
     }
-
-    .posts_date {
-        font-size: 12px;
-    }
-
+ 
     .posts_title {
         max-height: 30px;
     }
@@ -1177,9 +1007,7 @@
 
     /* -------------------- Contact ----------------------- */
     .input_field, .textarea_field {
-        text-indent: 16px;
         line-height: 22px;
-        font-size: 12px;
     }
     
     .input_field {
@@ -1193,48 +1021,20 @@
         margin-top: 15px;
     }
 
-/* ------------------- Footer --------------------- */
-
-/* --------- Footer top-bottom ---------- */
-
-
 /* -------------------- Footer top --------------------- */
-    .footer_top {
-        height: auto;
-    }
-
-    .footer_top_content {
-        margin-top: 10px;
-    }
-
-    .footer_top_content_section {
-        width: 100%;
-        margin: 0 auto 15px;
-    }
-
+ 
     .footer_top_content_section .section_head {
         font-size: 14px;
         margin-bottom: 10px;
     }
 
     .footer_top_content_section .section_text {
-        font-size: 10px;
         line-height: 18px;
-    }
-
-    .section_container {
-        max-width: 80%;
-        margin: 0 auto;
     }
 
     .section_container img {
         margin-right: 10px;
         width: 20px;
-    }
-
-    .tweet {
-        max-height: 60px;
-        overflow: hidden;
     }
 
     .tweet img {
@@ -1250,36 +1050,22 @@
     }
 
     .feed_back_submit {
+        min-width: 40px;
         font-size: 8px; 
     }
 
 /* ------------------- Footer bottom -------------------- */
-
-    .footer_bottom {
-        min-height: 45px;
-    }
-
-    .footer_bottom_content_section:last-of-type {
-        font-size: 10px;
-        width: 90%;
-    }
 
     .social_icon {
         margin-top: 10px;
         margin-right: 15px;
     }
 
-    .footer_bottom {
-        min-height: 90px;
-    }
-
     .first_parag_link {
-        font-size: 10px;
         line-height: 16px;
     }
 
     .footer_bottom_business_logo {
-        width: 80px;
+        width: 100px;
     }
-
 }

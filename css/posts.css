@@ -1,5 +1,6 @@
 .posts {
     color: #999;
+    margin-top: 80px;
 }
 
 .posts::after {
@@ -8,27 +9,8 @@
     display: table;
 }
 
-.posts_container {
-    max-width: 1030px;
-    margin: 80px auto 0;
-}
-
-.posts_container::after {
-    clear: both;
-    content: "";
-    display: table;
-}
-
-.posts_head {
-    text-align: center;
-}
-
-.posts_head h2 {
+.global_head.posts_head {
     color: #359cd1;
-    font-size: 36px;
-    line-height: 22px;
-    font-weight: 500;
-    text-transform: uppercase;
 }
 
 .posts_list {
@@ -43,8 +25,7 @@
 
 .posts_item {
     float: left;
-    width: 32%;
-    max-height: 520px;
+    width: 30%;
     overflow: hidden;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -60,11 +41,12 @@
 }
 
 .posts_date {
-    max-width: 270px;
-    max-height: 20px;
-    overflow: hidden;
+    max-width: 80%;
     margin: 0 auto;
     margin-top: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .icon-date {
@@ -72,19 +54,19 @@
 }
 
 .posts_title {
-    max-width: 270px;
-    max-height: 44px;
-    margin: 30px auto 0;
-    overflow: hidden;
-    font-size: 16px;
-    line-height: 22px;
+    max-width: 80%;
+    margin: 20px auto;
     color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .posts_description {
     max-width: 80%;
-    margin: 30px auto;
-    word-break: break-all;
+    margin: 20px auto;
+    max-height: 152px;
+    overflow: hidden;
 }
 
 .posts_title_link {

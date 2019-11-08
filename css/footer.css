@@ -1,10 +1,3 @@
-/* --------- Footer top-bottom ---------- */
-.footer_top_content, .footer_bottom_content {
-    max-width: 1030px;
-    margin:  0 auto;
-    color: #fff;
-}
-
 /* -------------------- Footer top --------------------- */
 .footer_top {
     background-color: #1f1f1f;
@@ -24,7 +17,6 @@
 .footer_top_content_section {
     width: 30%;
     float: left;
-    vertical-align: top;
 }
 
 .footer_top_content_section {
@@ -36,15 +28,11 @@
 }
 
 .footer_top_content_section .section_head {
-    font-size: 22px;
     color: #febb18;
-    font-weight: 500;
     margin-bottom: 25px;
-    text-transform: uppercase;
 }
 
 .footer_top_content_section .section_text {
-    font-size: 16px;
     color: #fff;
     line-height: 26px;
 }
@@ -55,6 +43,7 @@
 }
 
 .tweet {
+    margin-bottom: 10px;
     max-height: 70px;
     overflow: hidden;
 }
@@ -132,14 +121,8 @@
 }
 
 .first_parag_link {
-    font-size: 18px;
     line-height: 22px;
-    font-weight: 300;
     color: #fff;
-}
-
-.business_word {
-    font-weight: 500;
 }
 
 .social_icon {
@@ -166,6 +149,6 @@
 
 .font_icon_link:hover {
     color: #2e9bd4;
-    opacity: 1;
+    opacity: none;
 }
 
