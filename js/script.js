@@ -89,6 +89,7 @@ $('.owl-carousel').owlCarousel({
     nav: true,
     dots: true,
     responsiveClass: true,
+    navText: [$('.partners_slider_img_next'),$('.partners_slider_img_prev')],
     responsive: {
         0: {
             items: 1,

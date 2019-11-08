@@ -7,6 +7,7 @@
 @import './contact.css';
 @import './footer.css';
 @import './font-icons/style.css';
+@import './fonts/style.css';
 @import './media_queries.css';
 
 * {
@@ -31,21 +32,18 @@ input, textarea, button {
 ::-webkit-input-placeholder, :-ms-input-placeholder, ::placeholder { 
     color: #868686;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 16px; */
     line-height: 42px;
   }
   
   :-ms-input-placeholder {
     color: #868686;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 16px; */
     line-height: 42px;
   }
   
   ::placeholder {
     color: #868686;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 16px; */
     line-height: 42px;
   }
 
@@ -53,9 +51,11 @@ ul {
     list-style-type: none;
 }
 
-
-
 .app {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-light', sans-serif;
 }
 
+
+.news_head {
+    font-family: 'BebasNeue Regular';
+}

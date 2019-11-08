@@ -1,0 +1,29 @@
+/* ---------------------- Roboto -------------------------- */
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src:  url('Roboto-Light.eot') format('embedded-opentype'),
+    url('Roboto-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src:  url('Roboto-Regular.eot') format('embedded-opentype'),
+    url('Roboto-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ----------------------- BebasNeue ----------------------- */
+
+@font-face {
+    font-family: 'BebasNeue Regular';
+    src:  url('BebasNeue Regular.eot') format('embedded-opentype'),
+    url('BebasNeue Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
