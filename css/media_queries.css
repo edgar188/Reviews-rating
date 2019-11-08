@@ -165,18 +165,13 @@
         margin-top: 40px;
     }
     
-    .posts_btn {
+    /* .posts_btn {
         border-width: 3px;
-    }
+    } */
 
      /* -------------------- Contact ----------------------- */
      
-    .contact_btn {
-        font-size: 16px;
-        line-height: 20px;
-        padding: 15px 0px;
-    }
-
+    
     /* -------------------- Footer top --------------------- */
 
     .footer_top_content_section {
@@ -255,6 +250,7 @@
     }
 
     .global_button_load {
+        min-width: 120px;
         font-size: 14px;
         padding: 10px 0;
     }
@@ -450,11 +446,6 @@
         margin-top: 20px;
     }
     
-    .posts_btn {
-        font-size: 14px;
-        padding: 10px 0;
-    }
-
      /* ------------------------ Contact --------------------------- */
 
      .contact {
@@ -472,17 +463,8 @@
         margin-bottom: 30px;
     }
     
-    .contact_btn {
-        font-size: 14px;
-        line-height: 18px;
-        padding: 7px 0;
-    }
-    
 /* -------------------- Footer top --------------------- */
-    /* .footer_top {
-        height: auto;
-    } */
-
+  
     .footer_top_content {
         margin-top: 10px;
         padding: 5px 0;
@@ -584,8 +566,9 @@
     }
     
     .global_button_load {
-        width: 35%;
-        font-size: 12px;
+        min-width: 90px;
+        font-size: 10px;
+        padding: 5px 0;
     }
 
     /* ------------------------ Header --------------------------- */
@@ -755,8 +738,8 @@
     }
     
     .posts_btn {
-        width: 35%;
-        font-size: 12px;
+        /* width: 35%;
+        font-size: 12px; */
         line-height: 18px;
     }
 
@@ -777,11 +760,8 @@
 
     .contact_btn {
         margin-top: 20px;
-        font-size: 14px;
-        line-height: 14px;
-        padding: 10px 0;
     }
-        
+
 /* -------------------- Footer top --------------------- */
 
 .footer_top_content_section .section_text {
@@ -859,10 +839,8 @@
     }
 
     .global_button_load {
-        padding: 5px;
-        font-size: 10px;
-        border-width: 1px;
-        border-radius: 30px;
+        min-width: 80px;
+        padding: 5px 0;
     }
     
     /* ------------------------ Header --------------------------- */
@@ -999,10 +977,7 @@
     }
     
     .posts_btn {
-        padding: 5px;
-        font-size: 10px;
-        border-width: 1px;
-        border-radius: 30px;
+        border: 1px solid #ededed;;
     }
 
     /* -------------------- Contact ----------------------- */
@@ -1012,13 +987,6 @@
     
     .input_field {
         padding: 3px;
-    }
-    
-    .contact_btn {
-        padding: 5px;
-        font-size: 8px;
-        line-height: 14px;
-        margin-top: 15px;
     }
 
 /* -------------------- Footer top --------------------- */
