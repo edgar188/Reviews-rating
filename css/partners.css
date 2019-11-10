@@ -121,7 +121,7 @@
 
 .part_link {
     background-repeat: no-repeat;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     width: 100%;
 }
 
@@ -133,4 +133,14 @@
     visibility: hidden;
 }
 
-/* .owl-nav { display: block !important;float: left; } */
+.owl-nav .partners_slider_img_prev { 
+    position: absolute;
+    top: 0;
+    left: -5%;
+ }
+
+ .owl-nav .partners_slider_img_next { 
+    position: absolute;
+    top: 0;
+    right: 0;
+ }

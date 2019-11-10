@@ -4,11 +4,6 @@
     padding-top: 84px;
 }
 
-/* .intro_container {
-    max-width: 1030px;
-    margin: 0 auto;
-} */
-
 .hero {
     display: flex;
     justify-content: center;
@@ -84,11 +79,6 @@
    position: relative;
 }
 
-.slider_prev:hover, .slider_next:hover {
-    cursor: pointer;
-    opacity: 0.5;
-}
-
 .slider_prev, .slider_next {
     position: absolute;
     top: 245px;
@@ -101,5 +91,18 @@
 .slider_next {
     right: 115px;
 }
+
+.owl-nav .elipse_next {
+    position: absolute;
+    top: 25%;
+    right: -10%;
+}
+
+.owl-nav .elipse_prev {
+    position: absolute;
+    top: 25%;
+    left: -10%;
+}
+
 
 

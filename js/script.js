@@ -14,6 +14,7 @@ $('#owl-demo').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    navText: [$('.elipse_prev'), $('.elipse_next')],
     items:1
 })
 
@@ -24,7 +25,7 @@ $('.owl-carousel').owlCarousel({
     nav: true,
     dots: true,
     responsiveClass: true,
-    navText: [$('.partners_slider_img_next'),$('.partners_slider_img_prev')],
+    navText: [$('.partners_slider_img_prev'), $('.partners_slider_img_next')],
     responsive: {
         0: {
             items: 1,
