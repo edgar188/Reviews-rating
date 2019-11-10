@@ -1,16 +1,14 @@
 "use strict";
 
-function responsiveNavbar() {
-    var navList = document.getElementById("nav_list");
-
-    if (navList.className === "nav_list") {
-        navList.className += " responsive";
-    } 
-    else {
-        navList.className = "nav_list";
+function responNavbar() {
+    var nav = document.getElementById("nav");
+    if(nav.className) {
+      nav.className = "";
+    } else {
+      nav.className = "active";
     }
-}
-
+  }
+  
 // ------------------------ Intro slider --------------------------
 $('#owl-demo').owlCarousel({
     loop:true,

@@ -16,25 +16,24 @@
     <main class="app">
         <!--------------------------- Header ------------------------------>
         <header>
-            <div class="global_section_container">
-                <div class="header_logo_container">
-                    <a href="#">
-                        <img class="logo" src="./images/intro/logo.png" alt="logo" />
-                    </a>
-                </div>
-                <nav class="header_nav">
-                    <div class="toggle">
-                        <span class="icon-menu" onclick="responsiveNavbar()"></span>
-                    </div>
-                    <ul id="nav_list" class="nav_list responsive">
-                        <li><a href="#" class="link active">Home</a></li>
-                        <li><a href="#" class="link">Reviews</a></li>
-                        <li><a href="#" class="link">Compare</a></li>
-                        <li><a href="#" class="link">About</a></li>
-                        <li><a href="#" class="link">Blog</a></li>
-                    </ul>
-                </nav>
+            <div class="header_logo_container">
+                <a href="#">
+                    <img class="header_logo" src="./images/intro/logo.png" alt="logo" />
+                </a>
             </div>
+            <nav id="nav" class="">
+                <ul>
+                    <li class="nav_list"><a href="#" class="link">Reviews</a></li>
+                    <li class="nav_list"><a href="#" class="link">Compare</a></li>
+                    <li class="nav_list"><a href="#" class="link">About</a></li>
+                    <li class="nav_list"><a href="#" class="link">Blog</a></li>
+                    <li class="nav_list"><a href="#" class="link active">Home</a></li>
+                </ul>
+            </nav>
+            <div class="menu_toggle">
+                <span class="icon-menu" onclick="responNavbar()"></span>
+            </div>
+            
         </header>
         <!--------------------------- Intro ------------------------------>
         <section class="intro">
@@ -110,7 +109,7 @@
                         </p>
                     </div>
                 </a>
-              
+
                 <a href="#" class="categories_item_link">
                     <div class="categories_item">
                         <img src="./images/categories/mobile.png" alt="mobile" class="categ_img" />
@@ -255,7 +254,7 @@
                             <li class="partners_logo_container ent part_link">
                                 <img class="partners_logo" src="./images/partners/logos/The_New_York_Times.png" />
                             </li>
-                            </a>
+                        </a>
                         <a href="#">
                             <li class="partners_logo_container new_york part_link">
                                 <img class="partners_logo" src="./images/partners/logos/comparecards.png" />

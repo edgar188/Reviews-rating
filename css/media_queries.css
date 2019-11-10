@@ -31,6 +31,16 @@
         font-size: 32px;
     }
 
+    /* ----------------------- Header ---------------------- */
+    
+    .header_logo {
+        width: 160px;
+    }
+
+    .nav_list {
+        margin-left: 20px;
+    }
+
     /* ------------------- Intro ------------------------- */
     
     .logo {
@@ -227,12 +237,6 @@
     }
 }
 
- @media (min-width: 770px) {
-    .responsive {
-        display: block;
-    }
-} 
-
 @media (max-width: 768px) {
 
     /* ----------------- Global classes ------------------ */
@@ -255,47 +259,38 @@
         padding: 10px 0;
     }
 
-    /* ------------------------ Header -------------------------- */
+    header {
+        padding: 0 60px;
+    }
+
+    .menu_toggle {
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh);
+        background: #333;
+        top: 50px;
+        left: -100%;
+        transition: 0.8s;
+    }
+
+    nav.active {
+        left: 0;
+    } 
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
 
     .nav_list {
-        position: absolute;
-        /* background-color: darkcyan; */
-        width: 100%;
-        /* min-height: 100vh; */
-        /* height: 100%; */
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 0;
-        text-align: center;
-        opacity: 0.5;
-        padding: 80px 0;
-    }
-
-    .nav_list li {
         float: none;
-        margin-right: 0;
-        margin-top: 10px;
-    }
-
-    .header_nav .link {
-        margin-left: 10%;
-    }
-
-    .logo {
-        width: 70%;
-    }
-
-    .toggle {
-        position: absolute;
-        right: 10%;
-        top: 56px;
-        display: block;
-        z-index: 20;
-    }
-
-    .toggle:hover {
-        cursor: pointer;
+        padding: 20px;
+        margin-left: 0;
+        font-size: 20px;
     }
         
     /* ---------------------------- Intro ---------------------------- */
