@@ -3,9 +3,7 @@
 @font-face {
     font-family: 'Roboto-Light';
     src:  url('Roboto-Light.eot') format('embedded-opentype'),
-    url('Roboto-Light.ttf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+        url('Roboto-Light.ttf') format('opentype');
 }
 
 /* ----------------------- BebasNeue ----------------------- */
@@ -13,9 +11,7 @@
 @font-face {
     font-family: 'BebasNeue Regular';
     src:  url('BebasNeue Regular.eot') format('embedded-opentype'),
-    url('BebasNeue Regular.ttf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+        url('BebasNeue Regular.ttf') format('opentype');
 }
 
 
