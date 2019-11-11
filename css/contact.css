@@ -16,18 +16,17 @@
     width: 100%;
     border: none;
     text-indent: 20px;
-    line-height: 42px;
 }
 
 .input_field {
-    padding: 1px 0;
+    padding: 10px 0;
     margin-bottom: 35px;
     border-radius: 30px;
 }
 
 .textarea_field {
     border-radius: 20px;
-    padding-bottom: 46px;
+    padding-bottom: 80px;
 }
 
 .contact_btn {

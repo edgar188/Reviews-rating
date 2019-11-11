@@ -465,14 +465,17 @@
     
     .input_field, .textarea_field {
         text-indent: 16px;
-        line-height: 22px;
     }
     
     .input_field {
-        padding: 7px;
-        margin-bottom: 30px;
+        padding: 7px 0;
+        margin-bottom: 20px;
     }
     
+    .textarea_field {
+        padding-bottom: 60px;
+    }
+
 /* -------------------- Footer top --------------------- */
   
     .footer_top_content {
@@ -582,6 +585,7 @@
     }
 
     /* ------------------------ Header --------------------------- */
+
     .header_nav .link {
         font-size: 10px;
         margin-left: 15%;
@@ -657,12 +661,21 @@
     /* ---------------------------- News ----------------------------- */
 
     .news_list {
-        max-width: 80%;
+        max-width: 100%;
         margin: 30px auto 20px;
     }
 
     .global_text.news_title, .global_text.news_description {
         margin: 10px;
+    }
+
+    .news_item {
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+
+    .news_item:nth-of-type(even) {
+        margin-left: 0;
     }
 
     .news_item a {
@@ -703,8 +716,17 @@
     /* --------------- Posts ---------------------- */
 
     .posts_list {
-        max-width: 80%;
+        max-width: 100%;
         margin: 60px auto 0;
+    }
+
+    .posts_item {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .posts_item:nth-of-type(3n+2) {
+        margin-left: 0;
     }
 
     .posts_date {
@@ -744,13 +766,20 @@
         margin-top: 40px;
     }
     
+    .contact_form_container form {
+        margin-top: 5%;
+     }
+
     .input_field, .textarea_field {
         text-indent: 14px;
-        line-height: 22px;
     }
     
     .input_field {
-        padding: 5px;
+        padding: 3px 0;
+    }
+
+    .textarea_field {
+        padding-bottom: 40px;
     }
 
     .contact_btn {
@@ -906,7 +935,7 @@
 
     /* --------------------- Partners ----------------------------- */
 
-    .partners {
+    /* .partners {
         margin-top: 40px;
         min-height: 200px;
     }
@@ -934,7 +963,7 @@
 
     .partners_logo_container {
         margin-top: 5px;
-    }
+    } */
 
     /* ------------------------- Posts ------------------------ */
 
@@ -961,12 +990,17 @@
     }
 
     /* -------------------- Contact ----------------------- */
-    .input_field, .textarea_field {
-        line-height: 22px;
+    
+    .contact_form_container form {
+       margin-top: 10%;
+    }
+
+    .textarea_field {
+        padding-bottom: 20px;
     }
     
     .input_field {
-        padding: 3px;
+        padding: 0;
     }
 
 /* -------------------- Footer top --------------------- */
