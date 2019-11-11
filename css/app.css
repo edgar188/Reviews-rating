@@ -36,24 +36,24 @@ ul {
 
 ::-webkit-input-placeholder { 
     color: #868686;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 42px;
   }
   
   :-ms-input-placeholder {
     color: #868686;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 42px;
   }
   
   ::placeholder {
     color: #868686;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 42px;
   }
 
 .app {
-    font-family: 'Roboto-light', sans-serif;
+    font-family: 'Roboto-light';
 }
 
 

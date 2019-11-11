@@ -22,6 +22,10 @@ nav ul {
     float: left;
 }
 
+.header_logo_container a:hover {
+    opacity: 1;
+}
+
 .nav_list {
     float: right;
     margin-left: 40px;

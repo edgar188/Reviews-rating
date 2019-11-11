@@ -27,11 +27,13 @@
 
 .hero_texts {
     float: left;
-    max-width: 25%;
+    max-width: 35%;
+    margin-top: 10%;
 }
 
 .img_container {
     width: 100%;
+    margin-top: 5%
 }
 
 .img_container img {
@@ -79,29 +81,18 @@
    position: relative;
 }
 
-.slider_prev, .slider_next {
-    position: absolute;
-    top: 245px;
-}
-
-.slider_prev {
-    left: 50px;
-}
-
-.slider_next {
-    right: 115px;
-}
-
 .owl-nav .elipse_next {
     position: absolute;
-    top: 25%;
+    top: 50%;
+    transform: translateY(-50%);
     right: -10%;
 }
 
 .owl-nav .elipse_prev {
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: -10%;
+    transform: translateY(-50%);
 }
 
 

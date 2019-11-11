@@ -1,6 +1,16 @@
+@media (max-width: 1920px) {
+    .header_logo_container {
+        margin-left: 15%;
+    }
+}
+
 @media (max-width: 1440px) {
     /* -------------------------- Header ------------------------------ */
     
+    .header_logo_container {
+        margin-left: 0;
+    }
+
     .logo {
         width: 100%;
     }
@@ -13,12 +23,12 @@
     .bottom_text {
         font-size: 24px;
     }
-        
-    .img_container {
-        margin-top: -60px;
+    
+    .owl-carousel .owl-item img {
+        max-width: 90%;
     }
 
-    .slider_prev img, .slider_next img {
+    .owl-nav .elipse_prev, .owl-nav .elipse_next {
         width: 54px;
     }
 }
@@ -42,7 +52,15 @@
     }
 
     /* ------------------- Intro ------------------------- */
-    
+
+    .intro {
+        padding-top: 20px;
+    }
+
+    .hero {
+        max-width: 90%;
+    }
+
     .logo {
         width: 80%;
     }
@@ -57,22 +75,19 @@
         font-size: 18px;
     }
     
-    .img_container {
-        margin-top: -10px;
-    }
-
     .img_container img {
-        width: 580px;
+        max-width: 580px;
     }
 
-    .slider_next {
-        right: 95px;
-    }
-
-    .slider_prev img, .slider_next img {
+    .owl-nav .elipse_next, .owl-nav .elipse_prev {
         width: 48px;
+        
     }
     
+    .owl-nav .elipse_next {
+        right: -5%;
+    }
+
     .search_container {
         margin: 60px auto 0;
     }
@@ -296,43 +311,43 @@
     /* ---------------------------- Intro ---------------------------- */
 
     .hero {
-        margin: 20px auto 0;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .hero_texts {
+        max-width: 100%;
     }
 
     .top_text {
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 20px;
+        line-height: 28px;
     }
     
     .bottom_text {
-        font-size: 16px;
-        line-height: 30px;
+        margin-left: 15px;
+        font-size: 12px;
+        line-height: 20px;
     }
-    
-    .slider_prev, .slider_next {
-        top: 160px;
-    }
-
-    .slider_prev {
-        left: 25px;
-    }
-
+  
     .img_container {
         margin-top: 10px;
     }
 
-    .img_container img {
-        width: 400px;
+    .owl-nav .elipse_next, .owl-nav .elipse_prev {
+        width: 28px;
+       
     }
 
-    .slider_next {
-        right: 60px;
+    .owl-nav .elipse_prev {
+        left: -15%;
     }
 
-    .slider_prev img, .slider_next img {
-        width: 38px;
+    .owl-nav .elipse_next {
+        right: -10%;
     }
     
+
     .search_container {
         margin: 40px auto 0;
     }
@@ -586,50 +601,35 @@
     }
 
     /* ---------------------- Intro (Hero) --------------------------- */
-    
-    .intro {
-        padding-top: 44px;
-    }
 
     .hero {
-        margin-top: 0;
+        flex-wrap: wrap;
+        max-height: none;
+        overflow: none;
     }
 
     .hero_texts {
-        width: 100%;
-        text-align: center;
+        max-width: 80%;
     }
 
     .top_text {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 24px;
     }
-    
+
     .bottom_text {
         font-size: 12px;
         line-height: 20px;
-    }
-    
-    .slider_prev, .slider_next {
-        top: 150px;
+        max-height: 60px;
+        overflow: hidden;
     }
 
-    .img_container {
-        text-align: center;
-        width: 100%;
-        margin: 15px auto 0px 15px;
+    .owl-nav .elipse_next {
+        right: -15%;
     }
 
-    .img_container img {
-        width: 180px;
-    }
-
-    .slider_next {
-        right: 60px;
-    }
-
-    .slider_prev img, .slider_next img {
-        width: 38px;
+    .owl-carousel .owl-item img {
+        width: 80%;
     }
     
     .search_container {
@@ -851,35 +851,20 @@
     }
 
     /* ---------------------- Intro (Hero) --------------------------- */
-
-    .top_text {
-        font-size: 20px;
-        line-height: 30px;
-    }
     
+    .hero_texts {
+        max-width: 80%;
+    }
+
     .bottom_text {
+        margin-left: 10%;
         font-size: 10px;
-        line-height: 18px;
-    }
-    
-    .slider_prev, .slider_next {
-        top: 145px;
+        line-height: 20px;
+        width: 100%;
     }
 
-    .img_container {
-        margin: 15px auto 0px 10px;
-    }
-
-    .img_container img {
-        width: 160px;
-    }
-
-    .slider_prev img, .slider_next img {
-        width: 28px;
-    }
-    
-    .slider_next {
-        right: 55px;
+    .owl-nav .elipse_next, .owl-nav .elipse_prev {
+        width: 20px;
     }
 
     .search_container {
