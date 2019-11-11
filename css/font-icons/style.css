@@ -1,18 +1,19 @@
 @font-face {
   font-family: 'font-icon';
-  src:  url('fonts/font-icon.eot?5prxkg');
-  src:  url('fonts/font-icon.eot?5prxkg#iefix') format('embedded-opentype'),
-    url('fonts/font-icon.ttf?5prxkg') format('truetype'),
-    url('fonts/font-icon.woff?5prxkg') format('woff'),
-    url('fonts/font-icon.svg?5prxkg#font-icon') format('svg');
+  src:  url('fonts/font-icon.eot?r84thw');
+  src:  url('fonts/font-icon.eot?r84thw#iefix') format('embedded-opentype'),
+    url('fonts/font-icon.ttf?r84thw') format('truetype'),
+    url('fonts/font-icon.woff?r84thw') format('woff'),
+    url('fonts/font-icon.svg?r84thw#font-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'font-icon' !important;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-bank:before {
+  content: "\e903";
+}
 .icon-rss:before {
   content: "\e900";
 }

@@ -590,9 +590,11 @@ nav .link.active {
     line-height: 26px;
 }
 
-.section_container img {
+.icon-bank {
     float: left;
-    margin-right: 15px;
+    margin: 5px 15px 0px 0px;
+    color: #bcbcbc;
+    font-size: 40px;
 }
 
 .tweet {
@@ -697,6 +699,7 @@ nav .link.active {
 
 .footer_bottom_content_section:last-of-type {
     float: right;
+    text-align: right;
 }
 
 .font_icon_link {
@@ -1204,11 +1207,6 @@ nav .link.active {
         margin: 0 auto;
     }
 
-    .section_container img {
-        margin-right: 15px;
-        width: 25px;
-    }
-
     .tweet {
         margin-bottom: 15px;
         max-height: 40px;
@@ -1490,75 +1488,74 @@ nav .link.active {
         margin-top: 20px;
     }
 
-/* -------------------- Footer top --------------------- */
+    /* -------------------- Footer top --------------------- */
 
-.footer_top_content_section .section_text {
-    line-height: 18px;
-    max-height: 52px;
-}
+    .footer_top_content_section .section_text {
+        line-height: 18px;
+        max-height: 52px;
+    }
 
-.section_container img {
-    margin-right: 10px;
-    width: 20px;
-}
+    .icon-bank {
+        font-size: 24px;
+    }
 
-.tweet {
-    max-height: 36px;
-}
+    .tweet {
+        max-height: 36px;
+    }
 
-.tweet img {
-    padding-bottom: 40px;
-}
+    .tweet img {
+        padding-bottom: 40px;
+    }
 
-.tweet .icon-twitter {
-    font-size: 16px;
-    margin: 5px 10px 0 0;
-}
+    .tweet .icon-twitter {
+        font-size: 16px;
+        margin: 5px 10px 0 0;
+    }
 
-.user_email {
-    margin-right: 5px;
-}
+    .user_email {
+        margin-right: 5px;
+    }
 
-.feed_back_field, .feed_back_submit {
-    line-height: 20px;
-    margin-top: 20px;
-}
+    .feed_back_field, .feed_back_submit {
+        line-height: 20px;
+        margin-top: 20px;
+    }
 
-.feed_back_field {
-    width: 70%;
-    font-size: 12px;
-}
+    .feed_back_field {
+        width: 70%;
+        font-size: 12px;
+    }
 
-.feed_back_submit {
-    font-size: 10px;
-    padding-top: 3px;
-    padding-bottom: 1px;
-}
+    .feed_back_submit {
+        font-size: 10px;
+        padding-top: 3px;
+        padding-bottom: 1px;
+    }
 
-/* ------------------- Footer bottom -------------------- */
+    /* ------------------- Footer bottom -------------------- */
 
-.footer_bottom {
-    min-height: 90px;
-}
+    .footer_bottom {
+        min-height: 90px;
+    }
 
-.footer_bottom_content {
-    max-width: 80%;
-    margin-top: 10px;
-}
+    .footer_bottom_content {
+        max-width: 80%;
+        margin-top: 10px;
+    }
 
-.first_parag_link {
-    line-height: 18px;
-}
+    .first_parag_link {
+        line-height: 18px;
+    }
 
-.footer_bottom_content_section, 
-.footer_bottom_content_section:first-of-type, 
-.footer_bottom_content_section:last-of-type {
-    margin-bottom: 10px;
-}
+    .footer_bottom_content_section, 
+    .footer_bottom_content_section:first-of-type, 
+    .footer_bottom_content_section:last-of-type {
+        margin-bottom: 10px;
+    }
 
-.footer_bottom_business_logo {
-    width: 100px;
-}
+    .footer_bottom_business_logo {
+        width: 100px;
+    }
 
 }
 
@@ -1692,9 +1689,8 @@ nav .link.active {
         line-height: 18px;
     }
 
-    .section_container img {
-        margin-right: 10px;
-        width: 20px;
+    .icon-bank {
+        font-size: 20px;
     }
 
     .tweet img {
