@@ -25,6 +25,10 @@
     font-weight: bold;
     line-height: 22px;
     text-transform: uppercase;
+    padding: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .global_text {
@@ -118,6 +122,8 @@ nav .link.active {
     justify-content: center;
     flex-direction: row;
     margin-top: 50px;
+    max-height: 450px;
+    overflow: hidden;
 }
 
 .top_text {
@@ -237,8 +243,9 @@ nav .link.active {
 .global_text.categ_text {
     margin-top: 10px;
     min-width: 80px;
-    overflow: hidden;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* -------------------------- News ---------------------------------- */
@@ -306,7 +313,7 @@ nav .link.active {
     font-weight: 800;
 }
 
-/* ------------------------ Partners ------------------------- */
+/* ------------------------------ Partners ------------------------------- */
 
 .partners {
     min-height: 264px;
@@ -328,75 +335,8 @@ nav .link.active {
     color: #fff;
 }
 
-.partners_slider {
-    margin-top: 60px;
-    text-align: center;
-}
-
-.partners_slider::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.partners_logo_container {
-    float: left;
-    margin-left: 40px;
-}
-
-.partners_logo_container::after {
-    clear: both;
-}
-
-.partners_logo_container:first-of-type {
-    margin-left: 0;
-}
-
-.partners_slider_img_prev,
-.partners_slider_img_next {
-    margin-bottom: 7px;
-    position: relative;
-    z-index: 10;
-}
-
-.partners_slider_img_prev {
-    float: left;
-}
-
-.partners_slider_img_next {
-    margin-left: 50px;
-    float: right;
-}
-
-/* .owl-nav { display: block !important;float: left; } */
-
-.partners_slider_img_prev:hover, 
-.partners_slider_img_next:hover {
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-.partners_slider_img_prev {
-    margin-right: 50px;
-}
-
 .owl-carousel {
     margin-top: 60px;
-}
-
-.partners_logo_container ul {
-    list-style-type: none;
-}
-
-.partners_logo_container li {
-    display: block;
-    float: left;
-}
-
-.partners_logo_container a {
-    background-repeat: no-repeat;
-    margin-left: 30px;
-    width: 100%;
 }
 
 .new_york {
@@ -431,7 +371,6 @@ nav .link.active {
 
 .part_link {
     background-repeat: no-repeat;
-    /* margin-left: 30px; */
     width: 100%;
 }
 
@@ -446,13 +385,13 @@ nav .link.active {
 .owl-nav .partners_slider_img_prev { 
     position: absolute;
     top: 0;
-    left: -5%;
+    left: -10%;
  }
 
 .owl-nav .partners_slider_img_next { 
     position: absolute;
     top: 0;
-    right: 0;
+    right: -5%;
  }
 
  
@@ -895,21 +834,8 @@ nav .link.active {
 
     /* -------------------------- Partners -------------------------------- */
     
-    .partners_slider {
-        margin-top: 60px;
-    }
-
-    .partners_slider_img_prev {
-        margin-right: 0;
-    }
-
-    .partners_logo_container img {
-        width: 120px;
-        margin-left: 65px;
-    }
-
-    .partners_logo_container {
-        display: none
+   .partners_logo_container {
+        display: none;
     }
 
     .partners_logo_container:first-of-type {

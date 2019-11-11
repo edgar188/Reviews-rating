@@ -11,11 +11,11 @@ function responsiveNavBar() {
   
 // ------------------------ Intro slider --------------------------
 $('#owl-demo').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
+    loop: true,
+    margin: 10,
+    nav: true,
     navText: [$('.elipse_prev'), $('.elipse_next')],
-    items:1
+    items: 1
 })
 
 // ------------------------ Partners slider --------------------------
@@ -29,12 +29,11 @@ $('.owl-carousel').owlCarousel({
     responsive: {
         0: {
             items: 1,
-            dots: true,
         },
         768: {
             items: 2,
         },
-        992: {
+        1024: {
             items: 3,
         },
         1200: {
@@ -55,7 +54,7 @@ function initMap() {
     // var marker = new google.maps.Marker({position: uluru, map: map});
 }
 
-// --------------------------- Slider Intro ---------------------------------
+// --------------------------- custom slider Intro ---------------------------------
 // const introSlideData = [
 //     {
 //         topText: "Reviews Ratings Comparisons",
