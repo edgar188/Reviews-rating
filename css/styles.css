@@ -1072,16 +1072,17 @@ nav .link.active {
     /* ---------------------- Categories -------------------------- */
 
     .categ_section {
-        width: 60%;
+        width: 70%;
     }
 
     .categories_item {
-        width: 45%;
-        margin: 0 10px 20px 0;
+        width: 30%;
+        margin: 20px auto;
+        padding: 5px;
     }
 
     .categories_item img {
-        width: fit-content;
+       
         max-width: 60px;
     }
 
@@ -1357,9 +1358,9 @@ nav .link.active {
     /* ---------------------- Categories -------------------------- */
 
     .categories_item {
-        width: 80%;
-        margin-bottom: 20px;
+        width: 40%;
         margin-left: 10%;
+        
     }
 
     /* ---------------------------- News ----------------------------- */
@@ -1620,7 +1621,7 @@ nav .link.active {
     /* ---------------------- Categories -------------------------- */
     
     .categories_item {
-        margin-bottom: 20px;
+       width: 100%;
     }
 
     .categories_item img {
