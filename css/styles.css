@@ -569,8 +569,15 @@ nav .link.active {
     margin-right: 40px;
 }
 
+.footer_top_content_section:first-of-type {
+    max-height: 180px;
+    overflow: hidden;
+}
+
 .footer_top_content_section:last-of-type {
     margin-right: 0;
+    max-height: 250px;
+    overflow: hidden;
 }
 
 .footer_top_content_section .section_head {
@@ -597,7 +604,7 @@ nav .link.active {
 .tweet .icon-twitter {
     float: left;
     margin: 5px 10px;
-    color: #fff;
+    color: #bcbcbc;
     font-size: 20px;
     padding-bottom: 54px;
 }
@@ -950,7 +957,7 @@ nav .link.active {
     /* ----------------- Global classes ------------------ */
 
     .global_section_container {
-        width: 45%;
+        width: 70%;
     }
 
     .global_head {
@@ -1211,17 +1218,23 @@ nav .link.active {
         padding-bottom: 30px;
     }
 
+    .tweet .icon-twitter {
+        font-size: 18px;
+        margin: 5px 10px 0 0;
+    }
+    
+
     .feed_back_field, .feed_back_submit {
         padding: 2px;
     }
 
     .feed_back_field {
-        width: 60%;
+        width: 70%;
         font-size: 14px;
     }
 
     .feed_back_submit {
-        width: 20%;
+        width: 30%;
         font-size: 12px;
         padding-top: 3px;
         padding-bottom: 1px;
@@ -1448,8 +1461,6 @@ nav .link.active {
     }
     
     .posts_btn {
-        /* width: 35%;
-        font-size: 12px; */
         line-height: 18px;
     }
 
@@ -1499,24 +1510,28 @@ nav .link.active {
     padding-bottom: 40px;
 }
 
+.tweet .icon-twitter {
+    font-size: 16px;
+    margin: 5px 10px 0 0;
+}
+
 .user_email {
     margin-right: 5px;
 }
 
 .feed_back_field, .feed_back_submit {
-    height: 20px;
     line-height: 20px;
     margin-top: 20px;
 }
 
 .feed_back_field {
-    width: 50%;
+    width: 70%;
     font-size: 12px;
 }
 
 .feed_back_submit {
     font-size: 10px;
-    padding-top: 1px;
+    padding-top: 3px;
     padding-bottom: 1px;
 }
 
@@ -1628,36 +1643,6 @@ nav .link.active {
 
     /* --------------------- Partners ----------------------------- */
 
-    /* .partners {
-        margin-top: 40px;
-        min-height: 200px;
-    }
-
-    .global_head_container.partners_head_container {
-        margin-top: 40px;
-    }
-
-    .partners_slider {
-        margin-top: 40px;
-    }
-
-    .partners_logo_container img {
-        width: 100px;
-        margin-left: 45px;
-    }
-
-    .partners_logo_container:nth-of-type(n) {
-        display: none
-    }
-
-    .partners_logo_container:first-of-type {
-        display: block;
-    }
-
-    .partners_logo_container {
-        margin-top: 5px;
-    } */
-
     /* ------------------------- Posts ------------------------ */
 
     .posts_date {
@@ -1725,7 +1710,6 @@ nav .link.active {
     }
 
     .feed_back_submit {
-        min-width: 40px;
         font-size: 8px; 
     }
 
