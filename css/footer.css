@@ -48,7 +48,11 @@
     overflow: hidden;
 }
 
-.tweet img {
+.tweet .icon-twitter {
+    float: left;
+    margin: 5px 10px;
+    color: #fff;
+    font-size: 20px;
     padding-bottom: 54px;
 }
 
