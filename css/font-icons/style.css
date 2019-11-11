@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'initial';
-  src:  url('fonts/initial.eot?5prxkg');
-  src:  url('fonts/initial.eot?5prxkg#iefix') format('embedded-opentype'),
-    url('fonts/initial.ttf?5prxkg') format('truetype'),
-    url('fonts/initial.woff?5prxkg') format('woff'),
-    url('fonts/initial.svg?5prxkg#initial') format('svg');
+  font-family: 'font-icon';
+  src:  url('fonts/font-icon.eot?5prxkg');
+  src:  url('fonts/font-icon.eot?5prxkg#iefix') format('embedded-opentype'),
+    url('fonts/font-icon.ttf?5prxkg') format('truetype'),
+    url('fonts/font-icon.woff?5prxkg') format('woff'),
+    url('fonts/font-icon.svg?5prxkg#font-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,8 +12,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'initial' !important;
-  speak: none;
+  font-family: 'font-icon' !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

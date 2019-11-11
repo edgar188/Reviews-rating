@@ -1,6 +1,6 @@
 "use strict";
 
-function responNavbar() {
+function responsiveNavBar() {
     var nav = document.getElementById("nav");
     if(nav.className) {
       nav.className = "";
